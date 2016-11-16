@@ -2,6 +2,10 @@
 
 .global-header {
   @extend %purple-gradient;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   a {
     color: $white;
@@ -22,8 +26,36 @@
 
   a {
     @extend .xs-sans;
-    text-transform: uppercase;
+    @extend .sm-caps;
     margin-right: $space-md;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}
+
+.primary-nav {
+  display: inline-block;
+
+  a {
+    position: relative;
+
+    &:after {
+      @include standard-trans();
+      opacity: 0;
+    }
+
+    // &:hover {
+    //   &:after {
+    //     opacity: 1;
+    //     position: absolute;
+    //     content: '';
+    //     height: rem(2);
+    //     width: 100%;
+    //     left: 0;
+    //     bottom: 0;
+    //     background-color: $white;
+    //   }
+    // }
   }
 }
 

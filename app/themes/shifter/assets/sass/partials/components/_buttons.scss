@@ -7,14 +7,14 @@
 
 .btn-outline--white {
   background-color: transparent;
-  padding: $space-sm $space-md;
-  border-radius: rem(5);
   border: rem(2) $white solid;
+  border-radius: rem(5);
+  padding: $space-sm $space-md;
 
   &:hover,
   &:focus {
-    border-color: $white;
     background-color: $white;
-    color: $white;
+    border-color: $white;
+    color: $magenta;
   }
 }

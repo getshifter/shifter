@@ -10,10 +10,12 @@
       </a>
     </div>
     <nav class="global-nav" role="navigation">
-      <?= Util\Listless_WP_Nav('primary_navigation'); ?>
+      <div class="primary-nav">
+        <?= Util\Listless_WP_Nav('primary_navigation'); ?>
+      </div>
       <div class="signup-links">
         <a class="btn-outline--white" href="#">Login</a>
-        <a class="btn-outline--white" href="#">Register</a>
+        <a class="btn-outline--white" href="#">Sign up</a>
       </div>
     </nav>
     <a class="global-nav-toggle" href="#">&#9776;</a>
