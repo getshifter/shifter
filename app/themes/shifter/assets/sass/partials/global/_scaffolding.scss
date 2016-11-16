@@ -14,16 +14,6 @@
   @include row();
 }
 
-.section-padding {
-  padding-bottom: $space-lg;
-  padding-top: $space-lg;
-
-  @include media($medium) {
-    padding-bottom: $space-xl;
-    padding-top: $space-xl;
-  }
-}
-
 // Sidebar
 .sidebar-right {
   .main-content {

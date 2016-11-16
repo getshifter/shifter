@@ -35,12 +35,26 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "iamhexcoder/patterns",
+        "version": "0.2.0",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/iamhexcoder/patterns/archive/master.zip"
+        }
+      }
     }
   ],
   "require": {
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.6.1",
-    "composer/installers": "v1.0.25"
+    "composer/installers": "v1.0.25",
+    "iamhexcoder/patterns": "0.2.0",
+    "wpackagist-plugin/simple-page-ordering": "2.2.4"
   },
   "extra": {
     "installer-paths": {
