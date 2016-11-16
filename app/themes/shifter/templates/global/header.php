@@ -16,5 +16,6 @@
         <a class="btn-outline--white" href="#">Register</a>
       </div>
     </nav>
+    <a class="global-nav-toggle" href="#">&#9776;</a>
   </div>
 </header>

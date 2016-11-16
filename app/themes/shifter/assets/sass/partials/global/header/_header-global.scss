@@ -3,6 +3,10 @@
 .global-header {
   @extend %purple-gradient;
 
+  a {
+    color: $white;
+  }
+
   .container-flex {
     align-items: center;
     height: rem(100);
@@ -10,10 +14,14 @@
 }
 
 .global-nav {
+  display: none;
+
+  @include media($medium) {
+    display: block;
+  }
 
   a {
     @extend .xs-sans;
-    color: $white;
     text-transform: uppercase;
     margin-right: $space-md;
   }
@@ -25,7 +33,15 @@
   a {
     &:last-of-type {
       margin-right: 0;
-    }  
+    }
+  }
+}
+
+.global-nav-toggle {
+  font-size: rem(22);
+
+  @include media($medium) {
+    display: none;
   }
 }
 
