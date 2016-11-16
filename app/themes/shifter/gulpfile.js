@@ -2,7 +2,7 @@
  * CONFIGURATION VARIABLES
  *
  */
-var devUrl = 'apollo.dev';
+var devUrl = 'shifter.dev';
 
 
 
@@ -351,6 +351,3 @@ gulp.task('default', sequence(
   'copy_fonts',
   'build_rev'
 ));
-
-
-
