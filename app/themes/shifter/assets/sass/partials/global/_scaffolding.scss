@@ -10,6 +10,11 @@
   @include base-container();
 }
 
+.container-flex {
+  @include base-container();
+  display: flex;
+}
+
 .row {
   @include row();
 }

@@ -1,1 +1,35 @@
 // Global Header Styles
+
+.global-header {
+  @extend %purple-gradient;
+
+  .container-flex {
+    align-items: center;
+    height: rem(100);
+  }
+}
+
+.global-nav {
+
+  a {
+    @extend .xs-sans;
+    color: $white;
+    text-transform: uppercase;
+    margin-right: $space-md;
+  }
+}
+
+.signup-links {
+  display: inline-block;
+
+  a {
+    &:last-of-type {
+      margin-right: 0;
+    }  
+  }
+}
+
+.logo {
+  margin-right: auto;
+  width: rem(130);
+}

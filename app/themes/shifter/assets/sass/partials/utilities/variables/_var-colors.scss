@@ -16,7 +16,7 @@ $brand-color: #bc4e9c;
 $purple: $brand-color;
 $magenta: #f80759;
 
-.purple-gradient {
+%purple-gradient {
   @include linear-gradient(to right, $purple, $magenta);
 }
 

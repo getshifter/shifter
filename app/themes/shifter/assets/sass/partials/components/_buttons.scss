@@ -5,7 +5,16 @@
   @include btn-reset();
 }
 
-#{$all-buttons},
-.btn-default {
-  @include btn-reset();
+.btn-outline--white {
+  background-color: transparent;
+  padding: $space-sm $space-md;
+  border-radius: rem(5);
+  border: rem(2) $white solid;
+
+  &:hover,
+  &:focus {
+    border-color: $white;
+    background-color: $white;
+    color: $white;
+  }
 }
