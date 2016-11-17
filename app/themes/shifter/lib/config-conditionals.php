@@ -13,7 +13,7 @@ namespace Apollo\Config\Condition;
  */
 function hide_sidebar() {
 
-  if ( is_404() ) {
+  if ( is_404() || is_post_type_archive('patterns') || is_front_page() ) {
 
     return true;
 
@@ -31,10 +31,9 @@ function hide_sidebar() {
  */
 function hide_page_header() {
 
-  // if(is_front_page() || 'jobs' === get_post_type() ) {
-  //
-  //   return true;
-  // }
+  if(is_front_page()) {
+    return true;
+  }
 
 }
 
@@ -59,4 +58,3 @@ function sidebar_switch() {
   // }
 
 }
-

@@ -18,7 +18,7 @@ $function_includes = [
   /* Uncomment as needed */
   // 'misc/extend-post-types',      // Custom Post Types
   // 'misc/extend-taxonomy',        // Custom Taxonomies
-  // 'misc/extend-admin',           // Customize WP Admin
+  'misc/extend-admin',           // Customize WP Admin
   // 'misc/extend-queries',         // Alterations to queries via hooks
 ];
 

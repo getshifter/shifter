@@ -16,46 +16,57 @@ strong {
 // TYPE CLASSES
 // =============================================================================
 
-// Serif
-.xl-serif {
-  font-family: $serif;
-  font-size: rem(75);
-}
-
-.lg-serif {
-  font-family: $serif;
-  font-size: rem(50);
-}
-
-.md-serif {
-  font-family: $serif;
-  font-size: rem(25);
-}
-
-.sm-serif {
-  font-family: $serif;
-  font-size: rem(10);
-}
-
 // Sans Serif
+.yuge-sans {
+  font-family: $sans;
+  font-size: rem(90);
+  line-height: 1.07;
+}
+
+.xxl-sans {
+  font-family: $sans;
+  font-size: rem(68);
+  line-height: 1.14;
+}
+
 .xl-sans {
   font-family: $sans;
-  font-size: rem(75);
+  font-size: rem(60);
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .lg-sans {
   font-family: $sans;
-  font-size: rem(50);
+  font-size: rem(30);
+  font-weight: 600;
+  line-height: 1.36;
 }
 
 .md-sans {
   font-family: $sans;
   font-size: rem(25);
+  font-weight: 700;
+  line-height: 1.36;
 }
 
 .sm-sans {
   font-family: $sans;
-  font-size: rem(10);
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.xs-sans {
+  font-family: $sans;
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.sm-caps {
+  letter-spacing: rem(.5);
+  text-transform: uppercase;
 }
 
 

@@ -22,6 +22,8 @@ var Apollo = {
   // Home page
   front_page: {
     init: function() {
+      var homeAnimation = require('homeAnimation.js');
+      homeAnimation();
 
     },
     finalize: function() {

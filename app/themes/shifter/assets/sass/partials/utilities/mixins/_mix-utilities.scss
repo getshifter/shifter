@@ -85,6 +85,10 @@
   background-size: cover;
 }
 
+@mixin purple-gradient {
+  @include linear-gradient(to right, $purple, $magenta);
+}
+
 // BUTTONS
 // =============================================================================
 
