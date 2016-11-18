@@ -6,6 +6,7 @@
 $white: #fff;
 $black: #000;
 $black-light: #3B3B3B;
+$gray-dark: #666666;
 $gray-light: #f5f8fa;
 
 
@@ -29,7 +30,10 @@ $color-styles: (
   'gray-light': $gray-light,
   'white': $white,
   'black': $black,
-  'brand-color': $brand-color
+  'brand-color': $brand-color,
+  'gray-dark': $gray-dark,
+  'magenta': $magenta,
+  'purple': $purple
 );
 
 
@@ -40,7 +44,7 @@ $color-styles: (
 $base-background-color: $white;
 
 // Font Colors
-$base-font-color:     $black;
+$base-font-color:     $gray-dark;
 $base-accent-color:   $brand-color;
 
 // Link Colors

@@ -44,29 +44,6 @@
       @include standard-trans();
       opacity: 0;
     }
-
-    // &:hover {
-    //   &:after {
-    //     opacity: 1;
-    //     position: absolute;
-    //     content: '';
-    //     height: rem(2);
-    //     width: 100%;
-    //     left: 0;
-    //     bottom: 0;
-    //     background-color: $white;
-    //   }
-    // }
-  }
-}
-
-.signup-links {
-  display: inline-block;
-
-  a {
-    &:last-of-type {
-      margin-right: 0;
-    }
   }
 }
 

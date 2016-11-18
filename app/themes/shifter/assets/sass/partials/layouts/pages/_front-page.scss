@@ -1,10 +1,52 @@
 // Front Page Styles
 // -----------------
 
+
+// Mission
+
 .mission {
   text-align: center;
+
+  @include media($small) {
+    @include center-column(12);
+  }
+
+  @include media($medium) {
+    @include center-column(7);
+  }
 }
 
-.mission__title {
-  color: $purple;
+// Benefits
+
+.overview {
+  @include media($medium) {
+    @include center-column(8);
+  }
+}
+
+.overview__item {
+  margin-bottom: $space-xl;
+}
+
+.overview__lead {
+  text-align: center;
+  margin-bottom: $space-xl;
+}
+
+.overview__icon {
+  @include span-columns(4.5);
+
+  img {
+    @include img-responsive();
+  }
+}
+
+.overview__content {
+  @include span-columns(6.5);
+  @include shift(1);
+  padding-top: $space-md;
+}
+
+.overview__highlights {
+  margin-top: $space-md;
 }

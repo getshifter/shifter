@@ -20,8 +20,13 @@
 }
 
 .section-padding {
-  padding-bottom: rem(120);
-  padding-top: rem(120);
+  padding-bottom: $space-xl;
+  padding-top: $space-xl;
+
+  @include media($small) {
+    padding-bottom: $space-xxl;
+    padding-top: $space-xxl;
+  }
 }
 
 // Sidebar

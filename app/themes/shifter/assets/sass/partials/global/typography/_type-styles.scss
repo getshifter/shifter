@@ -13,6 +13,7 @@ strong {
   @include semi-bold();
 }
 
+
 // TYPE CLASSES
 // =============================================================================
 
@@ -64,8 +65,10 @@ strong {
   line-height: 1.5;
 }
 
+// Helpers
 .sm-caps {
   letter-spacing: rem(.5);
+  font-weight: 700;
   text-transform: uppercase;
 }
 

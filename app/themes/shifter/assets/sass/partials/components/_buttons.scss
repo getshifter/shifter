@@ -10,11 +10,25 @@
   border: rem(2) $white solid;
   border-radius: rem(5);
   padding: $space-sm $space-md;
+  color: $white;
 
   &:hover,
   &:focus {
     background-color: $white;
     border-color: $white;
     color: $magenta;
+  }
+}
+
+.btn-group {
+  display: inline-block;
+
+  a {
+    display: inline-block;
+    margin-right: $space-sm;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
   }
 }
