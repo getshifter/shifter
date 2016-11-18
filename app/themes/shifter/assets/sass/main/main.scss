@@ -1,6 +1,10 @@
 // MAIN.SCSS
 // ---------
 
+// Bourbon / Neat Global Vars
+// =============================================================================
+$disable-warnings: true !default;
+
 // VENDOR STYLES
 // =============================================================================
 
@@ -16,4 +20,3 @@
 @import '../partials/global/base';       // Globals Base
 @import '../partials/components/base';   // Components Base
 @import '../partials/layouts/base';      // Layouts Base
-

@@ -1,6 +1,6 @@
 <?php
 /**
- * Front Page: Benefits
+ * Front Page: Overview
  */
 ?>
 

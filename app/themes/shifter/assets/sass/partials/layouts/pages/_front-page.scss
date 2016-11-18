@@ -7,16 +7,12 @@
 .mission {
   text-align: center;
 
-  @include media($small) {
-    @include center-column(12);
-  }
-
   @include media($medium) {
     @include center-column(7);
   }
 }
 
-// Benefits
+// Overview
 
 .overview {
   @include media($medium) {
@@ -48,5 +44,59 @@
 }
 
 .overview__highlights {
+  margin-top: $space-md;
+}
+
+// Benefits
+
+.benefits {
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(11);
+  }
+}
+
+.benefits__lead {
+  @include center-column(10);
+  margin-bottom: $space-lg;
+}
+
+.benefits__wrap {
+  @include fill-parent();
+  @include row(table);
+  border-collapse: separate;
+  border-spacing: rem(2);
+}
+
+.benefits__item {
+  @include span-columns(3);
+  padding: rem(50) rem(30);
+}
+
+.benefits__icon {
+  margin-bottom: $space-lg;
+}
+
+.benefits__title {
+  margin-bottom: $space-sm;
+}
+
+// Reset Global Display
+@include reset-display;
+
+// Quote
+
+.quote {
+  margin-top: $space-xl;
+  text-align: center;
+
+  @include media($medium) {
+    @include center-column(7);
+  }
+}
+
+.quote__author {
+  font-weight: 300;
   margin-top: $space-md;
 }

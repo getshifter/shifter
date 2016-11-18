@@ -38,4 +38,6 @@
   .fill-#{$name} { fill: $value; }
 }
 
-
+._gradient {
+  @extend %purple-gradient;
+}
