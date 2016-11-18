@@ -6,6 +6,7 @@
 $white: #fff;
 $black: #000;
 $black-light: #3B3B3B;
+$gray-light: #f5f8fa;
 
 
 // BRAND COLORS
@@ -25,6 +26,7 @@ $magenta: #f80759;
 // both `.class-base` and `._class-base`
 // =============================================================================
 $color-styles: (
+  'gray-light': $gray-light,
   'white': $white,
   'black': $black,
   'brand-color': $brand-color

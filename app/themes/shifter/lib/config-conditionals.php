@@ -13,7 +13,7 @@ namespace Apollo\Config\Condition;
  */
 function hide_sidebar() {
 
-  if ( is_404() || is_post_type_archive('patterns')) {
+  if ( is_404() || is_post_type_archive('patterns') || is_front_page() ) {
 
     return true;
 
