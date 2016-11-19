@@ -52,27 +52,45 @@
 .benefits {
   text-align: center;
 
-  @include media($medium) {
+  @include media($large) {
     @include center-column(11);
   }
 }
 
 .benefits__lead {
-  @include center-column(10);
   margin-bottom: $space-lg;
 }
 
 .benefits__wrap {
-  @include fill-parent();
   @include row(table);
+}
+
+
+.benefits__wrap {
   border-collapse: separate;
   border-spacing: rem(2);
 }
 
+
 .benefits__item {
-  @include span-columns(3);
   padding: rem(50) rem(30);
+  margin-bottom: $space-md;
+
+  @include display-context(block) {
+
+    @include media($medium) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+  }
+
+  @include media($large) {
+    @include span-columns(3);
+  }
 }
+
+// Reset Global Display
+@include reset-display;
 
 .benefits__icon {
   margin-bottom: $space-lg;
@@ -81,9 +99,6 @@
 .benefits__title {
   margin-bottom: $space-sm;
 }
-
-// Reset Global Display
-@include reset-display;
 
 // Quote
 

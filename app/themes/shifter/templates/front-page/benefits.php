@@ -11,7 +11,7 @@
         <h1 class="lg-sans white">Key Benefits</h1>
       </div>
       <div class="benefits__wrap">
-        <article class="benefits__item _white">
+        <article class="benefits__item _white match-h">
           <div class="benefits__icon">
             <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/speed-icon.svg" alt="">
           </div>
@@ -22,7 +22,7 @@
             </p>
           </div>
         </article>
-        <article class="benefits__item _white">
+        <article class="benefits__item _white match-h">
           <div class="benefits__icon">
             <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/durability-icon.svg" alt="">
           </div>
@@ -33,7 +33,7 @@
             </p>
           </div>
         </article>
-        <article class="benefits__item _white">
+        <article class="benefits__item _white match-h">
           <div class="benefits__icon">
             <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/safety-icon.svg" alt="">
           </div>
@@ -44,7 +44,7 @@
             </p>
           </div>
         </article>
-        <article class="benefits__item _white">
+        <article class="benefits__item _white match-h">
           <div class="benefits__icon">
             <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/safety-icon.svg" alt="">
           </div>

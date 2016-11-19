@@ -6,4 +6,8 @@ module.exports = function() {
 
   console.log('We have liftoff.');
 
+  // Match Height
+  require('matchHeight');
+  $('.match-h').matchHeight();
+
 };

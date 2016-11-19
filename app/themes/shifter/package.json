@@ -46,6 +46,7 @@
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "imagemin-pngquant": "^5.0.0",
+    "jquery-match-height": "^0.7.0",
     "jshint": "^2.9.1",
     "jshint-stylish-source": "^1.0.5",
     "lodash.assign": "^4.0.6",
@@ -58,6 +59,9 @@
   },
   "dependencies": {
     "jquery": "^3.1.1"
+  },
+  "browser": {
+    "matchHeight": "./node_modules/jquery-match-height/jquery.matchHeight.js"
   },
   "browserify-shim": {
     "jquery": "global:$"
