@@ -37,6 +37,14 @@
 .global-footer__contact {
   @include span-columns(2);
   @include shift(1.5);
+
+  .contact-item {
+    margin-bottom: $space-sm;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .global-footer__signup {

@@ -53,11 +53,11 @@
       <?php } ?>
       </nav>
       <section class="global-footer__contact">
-        <article>
+        <article class="contact-item">
           <h4 class="xs-sans sm-caps white">Email Support</h2>
           <a class="xs-sans sm-caps purple" href="mailto:support@getshifter.io">support@getshifter.io</a>
         </article>
-        <article>
+        <article class="contact-item">
           <h4 class="xs-sans sm-caps white"> Say Hi</h4>
           <a class="xs-sans sm-caps purple" href="mailto:hello@getshifter.io">hello@getshifter.io</a>
         </article>
