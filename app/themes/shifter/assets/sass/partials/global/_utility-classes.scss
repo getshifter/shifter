@@ -33,9 +33,25 @@
 // Text and Background Color Classes
 // See $color-styles in sass/utilities/variables/_var-colors.scss
 @each $name, $value in $color-styles {
-  .#{$name} { color: $value; }
-  ._#{$name} { background-color: $value; }
-  .fill-#{$name} { fill: $value; }
+  .#{$name} {
+    color: $value;
+  }
+
+  a.#{$name} {
+    color: $value;
+
+    &:hover {
+      color: darken($value, 5%);
+    }
+  }
+
+  ._#{$name} {
+    background-color: $value;
+  }
+
+  .fill-#{$name} {
+    fill: $value;
+  }
 }
 
 ._gradient {

@@ -1,4 +1,7 @@
 <?php
+/**
+ * Front Page
+ */
 
 get_template_part('templates/front-page/animated-hero');
 get_template_part('templates/front-page/mission');

@@ -6,6 +6,8 @@
 }
 
 .btn-outline {
+  @extend .xs-sans;
+  @extend .sm-caps;
   border-radius: rem(5);
   border-style: solid;
   border-width: rem(2);
@@ -52,5 +54,16 @@
     &:last-of-type {
       margin-right: 0;
     }
+  }
+}
+
+.btn-group--stacked {
+  display: inline-block;
+
+  a {
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
   }
 }

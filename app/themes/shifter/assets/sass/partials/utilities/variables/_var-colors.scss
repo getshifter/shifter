@@ -7,6 +7,7 @@ $white: #fff;
 $black: #000;
 $black-light: #3B3B3B;
 $gray-dark: #666666;
+$gray: #999999;
 $gray-light: #f5f8fa;
 
 
@@ -30,7 +31,9 @@ $color-styles: (
   'gray-light': $gray-light,
   'white': $white,
   'black': $black,
+  'black-light': $black-light,
   'brand-color': $brand-color,
+  'gray': $gray,
   'gray-dark': $gray-dark,
   'magenta': $magenta,
   'purple': $purple

@@ -1,2 +1,61 @@
 // Global Footer Styles
 // --------------------
+
+.global-footer {
+
+  .top {
+    padding-top: $space-lg;
+    padding-bottom: $space-xl;
+  }
+
+  .bottom {
+
+    .container-flex {
+      align-items: center;
+      height: rem(100);
+    }
+  }
+}
+
+.global-footer__logo {
+  @include span-columns(2);
+}
+
+.global-footer__links {
+  @include span-columns(2);
+
+  &.secondary {
+    @include span-columns(2);
+  }
+
+  a {
+    display: block;
+    margin-bottom: $space-xs;
+  }
+}
+
+.global-footer__contact {
+  @include span-columns(2);
+  @include shift(1.5);
+}
+
+.global-footer__signup {
+  @include span-columns(1.5);
+  @include shift(1);
+}
+
+.global-footer__copyright {
+  margin-right: auto;
+}
+
+.global-footer__social {
+
+  a {
+    display: inline-block;
+    margin-right: $space-xs;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
