@@ -57,3 +57,7 @@
 ._gradient {
   @extend %purple-gradient;
 }
+
+.img-r {
+  @include img-responsive();
+}
