@@ -61,3 +61,7 @@
 .img-r {
   @include img-responsive();
 }
+
+.bkg-cover {
+  @include background-cover();
+}

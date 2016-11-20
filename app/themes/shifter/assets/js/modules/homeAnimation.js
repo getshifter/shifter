@@ -17,9 +17,9 @@ module.exports = function() {
 
   var $board   = $('#animation-board');
   var $trigger = $('#trigger');
-  $trigger.css({
-    top: ( $(window).height() / 2 )
-  })
+  // $trigger.css({
+  //   top: ( $(window).height() / 2 )
+  // })
 
 
   // SVG Items

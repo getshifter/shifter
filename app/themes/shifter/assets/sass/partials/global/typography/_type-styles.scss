@@ -36,9 +36,14 @@ strong {
 
 .xl-sans {
   font-family: $sans;
-  font-size: rem(60);
+  font-size: rem(32);
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.18;
+
+  @include media($small) {
+    font-size: rem(60);
+    line-height: 1.2;
+  }
 }
 
 .lg-sans {
