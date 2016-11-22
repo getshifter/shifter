@@ -88,6 +88,8 @@
 
   @include media($large) {
     display: table;
+    width: 100%;
+    table-layout: fixed;
   }
 }
 
@@ -95,7 +97,7 @@
   padding: rem(50) rem(30);
   margin-bottom: rem(2);
 
-  @include media($small) {
+  @include media($large-max) {
     @include span-columns(6);
     margin-bottom: $gutter;
 
@@ -106,6 +108,7 @@
 
   @include media($large) {
     display: table-cell;
+    width: 100px;
   }
 }
 

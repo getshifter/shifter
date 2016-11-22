@@ -7,9 +7,9 @@
 <section class="_gradient section-padding">
   <div class="container">
     <div class="benefits">
-      <div class="benefits__lead">
+      <header class="benefits__lead">
         <h1 class="lg-sans white">Key Benefits</h1>
-      </div>
+      </header>
       <div class="benefits__wrap">
         <article class="benefits__item _white match-h">
           <div class="benefits__icon">
@@ -57,11 +57,13 @@
         </article>
       </div>
     </div>
-    <article class="white md-sans quote">
+    <section class="white md-sans quote">
       <p>
         “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor sapien id velit fringilla, id pharetra odio dapibus. Nam nec massa porta, suscipit mauris fringilla, auctor ante.”
       </p>
-      <h3 class="quote__author xs-sans sm-caps">– Shaun Baer, customer, 2016</h3>
-    </article>
+      <aside class="">
+        <h3 class="quote__author xs-sans sm-caps">– Shaun Baer, customer, 2016</h3>
+      </aside>
+    </section>
   </div>
 </section>
