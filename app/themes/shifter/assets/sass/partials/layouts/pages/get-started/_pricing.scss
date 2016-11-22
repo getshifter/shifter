@@ -1,0 +1,93 @@
+// Get Started: Pricing
+// -----------------
+
+// Pricing Signup
+
+.pricing {
+  @include center-column(8);
+  text-align: center;
+}
+
+.plans {
+  @include fill-parent();
+  border-collapse: separate;
+  border-spacing: rem(2);
+  display: table;
+}
+
+.pricing__lead {
+  margin-bottom: $space-lg;
+}
+
+.plans__signup {
+  display: table-cell;
+  padding: rem(50);
+  position: relative;
+  width: 40%;
+}
+
+.plans__price {
+  font-weight: 400;
+  margin-bottom: $space-md;
+
+  span {
+    font-weight: 400;
+  }
+}
+
+.plans__details {
+  display: table-cell;
+  padding: $space-lg;
+}
+
+.plans__includes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plans__includes-title {
+  margin-bottom: $space-sm;
+  margin-top: $space-sm;
+}
+
+// Pricing Calc
+
+.pricing-calc {
+  @include center-column(8);
+  margin-top: $space-xl;
+  text-align: center;
+}
+
+.calc {
+  display: flex;
+  margin-top: $space-md;
+}
+
+.calc__wrap {
+  padding: $space-lg;
+}
+
+.calc__price {
+  width: 40%;
+}
+
+.calc__vars {
+  display: table-cell;
+  width: 60%;
+}
+
+.calc__var {
+  + .calc__var {
+    margin-top: $space-sm;
+  }
+}
+
+.calc__label {
+  display: block;
+  margin-bottom: $space-sm;
+}
+
+.calc__range {
+  width: 100%
+}

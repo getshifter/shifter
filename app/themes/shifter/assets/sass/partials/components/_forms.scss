@@ -1,0 +1,28 @@
+// Components: Forms
+// --------------------
+
+// Range
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  @extend %purple-gradient;
+  position: relative;
+  width: 300px;
+  height: rem(12);
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: rem(24);
+  width: rem(24);
+  border-radius: 50%;
+  background: $magenta;
+  margin-top: rem(-6);
+}
+
+input[type=range]:focus {
+    outline: none;
+}
