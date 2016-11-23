@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/j2made/apollo#readme",
   "devDependencies": {
+    "aria-accordion": "^0.1.1",
     "babelify": "^7.2.0",
     "bourbon": "^4.2.6",
     "bourbon-neat": "^1.7.4",

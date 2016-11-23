@@ -10,4 +10,10 @@ module.exports = function() {
   require('matchHeight');
   $('.match-h').matchHeight();
 
+  // Accordions
+  // require('aria-accordion');
+  var accordion = require('aria-accordion');
+  // var selectors = { ... };
+  // var opts = { ... };
+  new accordion.Accordion();
 };
