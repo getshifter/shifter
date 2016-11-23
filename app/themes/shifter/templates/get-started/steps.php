@@ -8,7 +8,7 @@
 <section class="_gray-light section-padding">
   <div class="container">
     <article class="steps__wrap">
-      <header class="steps__lead">
+      <header class="steps__lead section-lead">
         <h1 class="lg-sans purple">As easy as 1, 2, 3, 4…</h1>
         <h3 class="xs-sans">Shifter is here to make your life easier. Follow these simple<br>steps and you’ll have a brand new site in no time.</h3>
       </header>
@@ -41,7 +41,7 @@
             Deploy your WordPress site using Shifter.
           </div>
         </article>
-      </div>
-    </section>
+      </section>
+    </article>
   </div>
 </section>

@@ -9,8 +9,6 @@
 }
 
 .steps__lead {
-  text-align: center;
-  margin-bottom: $space-xl;
 
   br {
     display: none;
@@ -38,8 +36,8 @@
     @include span-columns(3);
     @include omega-reset(2n);
     @include omega(4n);
-    text-align: left;
     margin-bottom: 0;
+    text-align: left;
   }
 }
 
