@@ -1,3 +1,10 @@
+<?php
+/**
+ * Get Started: Pricing
+ */
+?>
+
+
 <section class="_gradient section-padding">
   <div class="container">
     <article class="pricing">
