@@ -4,7 +4,7 @@
 
 module.exports = function() {
 
-  console.log('We have liftoff.');
+  console.log("Hi, I'm Shifter.");
 
   // Match Height
   require('matchHeight');

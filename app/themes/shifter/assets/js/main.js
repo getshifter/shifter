@@ -24,10 +24,15 @@ var Apollo = {
     init: function() {
       var homeAnimation = require('homeAnimation.js');
       homeAnimation();
-
     },
     finalize: function() {
 
+    }
+  },
+  get_started: {
+    init: function() {
+      var pricingCalc = require('pricingCalc.js');
+      pricingCalc();
     }
   }
 };

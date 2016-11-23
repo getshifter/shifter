@@ -35,19 +35,18 @@
         </div>
         <div class="calc">
           <div class="calc__price">
-            <h2 class="sm-sans">Start from</h2>
             <div class="plans__price xl-sans black-light">
-              $60<span class="md-sans">/mo</span>
+              $<output id="pricing-result"></output><span class="md-sans">/mo</span>
             </div>
           </div>
           <div class="calc__vars">
             <div class="calc__var">
               <label class="calc__label" for="storageRange">Storage</label>
-              <input class="calc__range" type="range" min="10" max="100" value="10" id="storageRange" step="10">
+              <input class="calc__range" id="dataRange" type="range" min="10" step="10" max="100" value="10">
             </div>
             <div class="calc__var">
-              <label class="calc__label" for="dataRange">Range</label>
-              <input class="calc__range" type="range" min="10" max="100" value="10" id="dataRange" step="10">
+              <label class="calc__label" for="dataRange">Data Transfer</label>
+              <input class="calc__range" id="dataRange" type="range" min="10" step="10" max="100" value="20">
             </div>
           </div>
         </div>
