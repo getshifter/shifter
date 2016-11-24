@@ -8,13 +8,31 @@
   }
 }
 
-.faqs__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.faqs__item {
+  margin-bottom: rem(2);
 }
 
-.faqs__item {
+.faq__icon {
+  transform: rotate(0deg);
+  float: right;
+  margin-left: auto;
+  align-self: center;
+}
+
+.faq__title {
+  display: flex;
+  flex: 1;
   padding: $space-lg $space-md;
-  margin-bottom: rem(2);
+  text-align: left;
+  width: 100%;
+
+  &[aria-expanded="true"] {
+    .faq__icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.faq__content {
+  padding: 0 $space-md $space-lg;
 }

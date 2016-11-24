@@ -11,26 +11,35 @@
         <h1 class="lg-sans black">Frequently Asked Questions</h1>
       </header>
 
-      <ul class="js-accordion faqs__list">
-        <li class="faqs__item _white">
-          <button class="xs-sans black faq__title">How much does Shifter cost?</button>
-          <div>
+      <section class="js-accordion faqs__list">
+        <article class="faqs__item _white">
+          <button class="xs-sans black faq__title">
+            How much does Shifter cost?
+            <img class="faq__icon" width="20" height="auto" src="<?= get_template_directory_uri();?>/dist/images/arrow-icon.svg" alt="">
+          </button>
+          <div class="faq__content">
             content
           </div>
-        </li>
-        <li class="faqs__item _white">
-          <button class="xs-sans black faq__title">How much does Shifter cost?</button>
-          <div>
+        </article>
+        <article class="faqs__item _white">
+          <button class="xs-sans black faq__title">
+            How much does Shifter cost?
+            <img class="faq__icon" width="20" height="auto" src="<?= get_template_directory_uri();?>/dist/images/arrow-icon.svg" alt="">
+          </button>
+          <div class="faq__content">
             content
           </div>
-        </li>
-        <li class="faqs__item _white">
-          <button class="xs-sans black faq__title">How much does Shifter cost?</button>
-          <div>
+        </article>
+        <article class="faqs__item _white">
+          <button class="xs-sans black faq__title">
+            How much does Shifter cost?
+            <img class="faq__icon" width="20" height="auto" src="<?= get_template_directory_uri();?>/dist/images/arrow-icon.svg" alt="">
+          </button>
+          <div class="faq__content">
             content
           </div>
-        </li>
-      </ul>
+        </article>
+      </section>
     </article>
   </div>
 </section>
