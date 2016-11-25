@@ -31,16 +31,6 @@
   @include row();
 }
 
-.section-padding {
-  padding-bottom: $space-xl;
-  padding-top: $space-xl;
-
-  @include media($small) {
-    padding-bottom: $space-xxl;
-    padding-top: $space-xxl;
-  }
-}
-
 // Sidebar
 .sidebar-right {
   .main-content {

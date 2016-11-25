@@ -65,3 +65,19 @@
 .bkg-cover {
   @include background-cover();
 }
+
+// Spacing & Layout
+//
+.section-padding {
+  padding-bottom: $space-xl;
+  padding-top: $space-xl;
+
+  @include media($small) {
+    padding-bottom: $space-xxl;
+    padding-top: $space-xxl;
+  }
+
+  &._gradient + ._gradient.section-padding { // If 2 gradient section meet, remove padding on top
+    padding-top: 0;
+  }
+}
