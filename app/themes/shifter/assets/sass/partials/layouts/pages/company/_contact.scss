@@ -1,0 +1,28 @@
+// Company: Contact
+// -----------------
+
+.contact {
+  @include center-column(8);
+}
+
+.contact__form {
+  > div {
+    @include span-columns(6);
+    @include omega(2n);
+    margin-bottom: $space-md;
+
+    &.contact__message {
+      @include span-columns(12);
+      @include omega();
+    }
+  }
+
+  label {
+    display: block;
+    padding-top: $space-sm;
+  }
+
+  input {
+    width: 100%;
+  }
+}

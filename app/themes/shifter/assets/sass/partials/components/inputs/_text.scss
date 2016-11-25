@@ -1,0 +1,20 @@
+// Inputs: Text
+// -------------
+
+input[type=text],
+input[type=url],
+input[type=email],
+input[type=textarea] {
+   background-color: $white;
+   border-radius: rem(5);
+   padding: rem(16);
+}
+
+input[type=textarea] {
+  height: rem(300);
+
+  &::-webkit-input-placeholder {
+    @extend .sm-caps;
+    @extend .xs-sans;
+  }
+}
