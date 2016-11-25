@@ -12,3 +12,22 @@
     padding-bottom: rem(140);
   }
 }
+
+.page-header__title {
+  margin-bottom: $space-sm;
+}
+
+.page-header__content {
+
+  br {
+    display: none;
+  }
+
+  @include media($medium) {
+    @include center-column(7);
+
+    br {
+      display: inline-block;
+    }
+  }
+}
