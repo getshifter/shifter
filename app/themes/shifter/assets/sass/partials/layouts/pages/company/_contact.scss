@@ -15,14 +15,16 @@
       @include span-columns(12);
       @include omega();
     }
+
+    &.contact__submit {
+      width: 100%;
+      text-align: center;
+    }
+
   }
 
   label {
     display: block;
     padding-top: $space-sm;
-  }
-
-  input {
-    width: 100%;
   }
 }

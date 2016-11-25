@@ -28,7 +28,10 @@
           <label class="white xs-sans sm-caps" for="url">URL</label>
         </div>
         <div class="contact__message">
-          <input type="textarea" name="message" placeholder="MESSAGE:" value="" rows="8">
+          <textarea name="message" rows="8" placeholder="MESSAGE:"></textarea>
+        </div>
+        <div class="contact__submit">
+          <a href="#" class="btn-outline--white">Submit</a>
         </div>
       </form>
     </section>
