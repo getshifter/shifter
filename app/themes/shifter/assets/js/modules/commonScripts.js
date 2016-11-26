@@ -9,9 +9,4 @@ module.exports = function() {
   // Match Height
   require('matchHeight');
   $('.match-h').matchHeight();
-
-  // Accordions
-  // require('aria-accordion');
-  var accordion = require('aria-accordion');
-  new accordion.Accordion();
 };
