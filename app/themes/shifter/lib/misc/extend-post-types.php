@@ -40,17 +40,10 @@ function label_factory( $name, $singular = false, $plural = false ) {
 
 }
 
+// Posts "Blog"
+function post_cpt() {
 
-
-/**
- * Generate a custom post type
- * Sample page-type custom post type, uncomment to use.
- *
- * To customize further, refer to: http://generatewp.com/post-type/
- */
-function apollo_cpt() {
-
-  $labels = label_factory('Singular', 'Singular', 'Plural');
+  $labels = label_factory('Blog', 'Post', 'Blog');
 
   $args = array(
     'label'                 => $labels['name'],
@@ -59,12 +52,13 @@ function apollo_cpt() {
     'taxonomies'            => array(),
     'hierarchical'          => true,
     'public'                => true,
-    'menu_position'         => 20,
-    'menu_icon'             => 'dashicons-admin-page'
+    'menu_position'         => 5,
+    'menu_icon'             => 'dashicons-admin-page',
+    'rewrite'               => array( 'slug' => 'blog' )
   );
 
-  register_post_type( 'apollo_post_type', $args );
+  register_post_type( 'post', $args );
 
 }
 
-add_action( 'init', __NAMESPACE__ . '\\apollo_cpt', 0 );
+add_action( 'init', __NAMESPACE__ . '\\post_cpt', 0 );

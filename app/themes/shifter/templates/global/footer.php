@@ -37,7 +37,7 @@
       <?php
       $pages = array(
         'include' => array(
-          21, 24, 26, 28
+          30, 32
         ),
         'sort_column' => 'menu_order'
       );

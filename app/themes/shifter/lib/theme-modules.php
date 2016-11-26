@@ -17,14 +17,21 @@ namespace Apollo\Modules;
 function post_module() {
 
   ?>
-    <article <?php post_class(); ?>>
-      <header>
-        <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        <time datetime="<?= get_the_time('c'); ?>"><?= get_the_date(); ?></time>
-        <p>Author: <a href="<?= get_author_posts_url(get_the_author_meta('ID')); ?>" rel="author"><?= get_the_author(); ?></a></p>
-      </header>
-      <div class="entry-summary">
-        <?php the_excerpt(); ?>
+    <article <?php post_class('blog__post _white container-fluid'); ?>>
+      <figure class="blog__thumbnail">
+        <img class="img-r" src="//placehold.it/600x600" alt="">
+      </figure>
+      <div class="blog__content">
+        <header>
+          <h2 class="md-sans blog__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          <div class="blog__meta sm-caps xs-sans">
+            <time datetime="<?= get_the_time('c'); ?>"><?= get_the_date(); ?></time>
+            <a href="#">#Blog</a>
+          </div>
+        </header>
+        <div class="entry-summary">
+          <?php the_excerpt(); ?>
+        </div>
       </div>
     </article>
   <?php

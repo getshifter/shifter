@@ -1,27 +1,32 @@
 <?php while (have_posts()) : the_post(); ?>
-  <article <?php post_class(); ?>>
+  <div class="_gradient section-padding">
+    <div class="container">
+      <article <?php post_class('single__article _white'); ?>>
 
-    <header>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
-      <?php get_template_part('templates/blog/entry-meta'); ?>
-    </header>
+        <div class="single__content">
+          <div class="entry-content">
+            <?php the_content(); ?>
+          </div>
+          <section class="single__share">
+            <a href="<?= esc_url(home_url('/')); ?>">
+              <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
+            </a>
+            <a href="<?= esc_url(home_url('/')); ?>">
+              <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/twitter-icon.svg" alt="">
+            </a>
+            <a href="<?= esc_url(home_url('/')); ?>">
+              <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/facebook-icon.svg" alt="">
+            </a>
+            <a href="<?= esc_url(home_url('/')); ?>">
+              <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/instagram-icon.svg" alt="">
+            </a>
+          </section>
+        </div>
 
-    <div class="entry-content">
-      <?php the_content(); ?>
+      </article>
     </div>
+  </div>
 
-    <footer>
-      <?php
-        $args = array(
-          'prev_text'          => '&lsaquo; %title',
-          'next_text'          => '%title &rsaquo;',
-          'screen_reader_text' => __( 'Post navigation' ),
-        );
-        the_post_navigation($args);
-      ?>
-    </footer>
+  <?php get_template_part('templates/global/signup'); ?>
 
-    <?php comments_template('/templates/blog/comments.php'); ?>
-
-  </article>
 <?php endwhile; ?>

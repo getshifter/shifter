@@ -23,7 +23,7 @@ get_template_part('templates/global/head'); ?>
     do_action( 'get_header' );
 
     if ( !Condition\hide_page_header() )            // Conditionally get the page header
-      get_template_part( 'templates/page-header/_page-header-main' );
+      get_template_part( 'templates/page-header/page-header' );
   ?>
 
   <main class="main" role="main">
