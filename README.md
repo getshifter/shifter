@@ -1,11 +1,10 @@
-# Apollo
+# getshifter.io
 
-#### A WordPress craft launched with Composer, manned with automation.
+#### Serverless hosting for WordPress
 
 ## About
 
-Apollo is a two stage unit: A WordPress Stack built with Composer, and a Starter Theme packed with Sass, Gulp, Bourbon, Bower, and a Theme Wrapper structure.
-
+Shifter is a groundbreaking hosting solution that brings serverless architecture to the WordPress platform for the first time.
 
 #### Minimum Requirements (Stack)
 Versions listed are required to be equal to or greater than.
@@ -36,9 +35,9 @@ Make sure you have everything listed in the above requirements installed & downl
 - Open your terminal, `cd` into the directory you just cloned (base directory).
 - Edit `composer.json` to add plugins as needed. See [Adding Plugins](#adding-plugins)
 - Run `composer create-project`
-- _If developing locally:_ point local hosts to the base directory. 
+- _If developing locally:_ point local hosts to the base directory.
 - Edit the `wp-config` that is created in the base directory with your database and url credentials.
-- Change the name of the Theme (`app/themes/mission-control`) as needed. 
+- Change the name of the Theme (`app/themes/mission-control`) as needed.
 - Edit the `style.css` file in the theme directory with your own information as needed
 - Open the `gulpfile.js` file and edit the `devUrl` variable to match your host url.
 - `cd` to the theme directory and run `npm install`. The `gulp` task should run at the end of installation.
