@@ -82,19 +82,3 @@ Apollo's `composer.json` is setup to connect with the [WordPress Packagist] (htt
 
 Example:
     `"wpackagist-plugin/duplicate-post": "~2.6",`
-
-
-## Theme:
-### Mission Control
-
-Theme docs are maintained [here](app/themes/mission-control/README.md).
-
-
-## Contributing:
-### Issues
-
-Report all issues [here] (https://github.com/j2made/apollo/issues)
-
-
-## Credits:
-This project is heavily influenced by [Bedrock] (https://github.com/roots/bedrock) and [Sage] (https://github.com/roots/sage) by the [Roots] (https://roots.io/) team. A lot of the code here has been adopted from or inspired by those projects, such as [the wrapper] (https://roots.io/sage/docs/theme-wrapper/).
