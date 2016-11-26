@@ -13,8 +13,8 @@
         </figure>
         <div class="case-study__content">
           <header class="case-study__header">
-            <h2 class="case-study__title black md-sans">America Online</h2>
-            <h3 class="case-study__subtitle xs-sans">Manage Hosting User for 3 years</h3>
+            <h2 class="case-study__title black md-sans">Company Name</h2>
+            <h3 class="case-study__subtitle xs-sans">Stabilized costs and elimintated downtime</h3>
           </header>
           <div class="case-study__content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et ligula sed velit tempor auctor eget id sapien. Cras dapibus est ac leo porttitor faucibus. Aliquam erat volutpat. Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus, efficitur aliquam mauris. Nunc luctus quis nunc vitae pharetra. Aliquam suscipit orci ut felis scelerisque sagittis.</p>
@@ -24,7 +24,7 @@
               <p>"Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus."</p>
             </div>
             <div class="case-study__source black xs-sans">
-              — Zach Miller, Aol.
+              — Zach Miller, Company
             </div>
           </footer>
         </div>
@@ -35,8 +35,8 @@
         </figure>
         <div class="case-study__content">
           <header class="case-study__header">
-            <h2 class="case-study__title black md-sans">America Online</h2>
-            <h3 class="case-study__subtitle xs-sans">Manage Hosting User for 3 years</h3>
+            <h2 class="case-study__title black md-sans">Company Name</h2>
+            <h3 class="case-study__subtitle xs-sans">Secured and archived past content</h3>
           </header>
           <div class="case-study__content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et ligula sed velit tempor auctor eget id sapien. Cras dapibus est ac leo porttitor faucibus. Aliquam erat volutpat. Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus, efficitur aliquam mauris. Nunc luctus quis nunc vitae pharetra. Aliquam suscipit orci ut felis scelerisque sagittis.</p>
@@ -46,7 +46,7 @@
               <p>"Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus."</p>
             </div>
             <div class="case-study__source black xs-sans">
-              — Zach Miller, Aol.
+              — Zach Miller, Company
             </div>
           </footer>
         </div>
