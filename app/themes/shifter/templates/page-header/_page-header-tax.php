@@ -11,8 +11,6 @@
  $categories    = get_the_category();
  $category_name = $categories[0]->name;
 
- echo $category_name;
-
  if ($category_name) {
    $title = $category_name;
  }
