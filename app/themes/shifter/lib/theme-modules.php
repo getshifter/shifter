@@ -16,6 +16,9 @@ namespace Apollo\Modules;
  */
 function post_module() {
 
+  $categories    = get_the_category();
+  $category_name = $categories[0]->name;
+
   ?>
     <article <?php post_class('blog__post _white container-fluid'); ?>>
       <figure class="blog__thumbnail">
@@ -26,7 +29,7 @@ function post_module() {
           <h2 class="md-sans blog__title"><a class="black" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           <div class="blog__meta sm-caps xs-sans">
             <time datetime="<?= get_the_time('c'); ?>"><?= get_the_date(); ?></time>
-            <a href="#">#Blog</a>
+            <a href="#">#<?= $category_name ?></a>
           </div>
         </header>
         <div class="entry-summary xs-sans">
