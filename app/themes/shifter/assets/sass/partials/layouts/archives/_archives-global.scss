@@ -17,11 +17,24 @@
 
 .blog__thumbnail {
   @include span-columns(4);
+  position: relative;
+
+  &:after {
+    padding-top: 100%;
+    content: '';
+    display: block;
+  }
 }
 
 .blog__content {
-  @include span-columns(7.75);
-  @include shift(.25);
+  @include span-columns(12);
+}
+
+.has_thumbnail {
+  .blog__content {
+    @include span-columns(7.75);
+    @include shift(.25);
+  }
 }
 
 .blog__title {
