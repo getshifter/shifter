@@ -1,6 +1,6 @@
 <?php
 /**
- * Page Header: Blog
+ * Page Header: Tax
  */
 
  $page_for_posts = get_option( 'page_for_posts' );
@@ -8,9 +8,13 @@
  $title         = get_the_title($page_for_posts);
  $custom_title  = get_field('custom_title', $page_for_posts);
  $subtitle      = get_field('page_subtitle', $page_for_posts);
+ $categories    = get_the_category();
+ $category_name = $categories[0]->name;
 
- if ($custom_title) {
-   $title = $custom_title;
+ echo $category_name;
+
+ if ($category_name) {
+   $title = $category_name;
  }
 ?>
 
