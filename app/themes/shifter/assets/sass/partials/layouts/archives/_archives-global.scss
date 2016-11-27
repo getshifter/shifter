@@ -38,6 +38,12 @@
   }
 }
 
+.blog__link {
+  display: inline-block;
+  margin-top: $space-md;
+  font-size: rem(12);
+}
+
 // Categories
 
 .blog__categories {
