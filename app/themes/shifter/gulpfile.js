@@ -18,6 +18,7 @@ var buffer = require('vinyl-buffer');
 var source = require('vinyl-source-stream');
 var assign = require('lodash.assign');
 var watchify = require('watchify');
+var babelify    = require('babelify');
 var browserify = require('browserify');
 var browsersync = require('browser-sync');
 
@@ -183,7 +184,8 @@ var b = function() {
     debug: true,
     cache: {},
     paths: ['./node_modules', base.js.modules]
-  });
+  })
+  .transform("babelify", { presets: ["es2015"] });
 };
 
 /** Watchify Bundler */
