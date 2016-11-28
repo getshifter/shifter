@@ -1,24 +1,24 @@
 version: 0.0
 os: linux
 permissions:
-   - object: /var/www/vhosts/getshifter.io
+   - object: /var/www/vhosts/getshifter.io.sub
      pattern: "**"
-     owner: ec2-user
-     group: ec2-user
+     owner: nginx
+     group: nginx
      mode: 644
      type:
        - file
 files:
     - source: index.php
-      destination: /var/www/vhosts/getshifter.io
+      destination: /var/www/vhosts/getshifter.io.sub
     - source: app
-      destination: /var/www/vhosts/getshifter.io/app
+      destination: /var/www/vhosts/getshifter.io.sub/app
     - source: lib
-      destination: /var/www/vhosts/getshifter.io/lib
+      destination: /var/www/vhosts/getshifter.io.sub/lib
     - source: composer.json
-      destination: /var/www/vhosts/getshifter.io
+      destination: /var/www/vhosts/getshifter.io.sub
     - source: .gitignore
-      destination: /var/www/vhosts/getshifter.io
+      destination: /var/www/vhosts/getshifter.io.sub
 hooks:
   AfterInstall:
     - location: scripts/update_tasks
