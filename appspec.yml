@@ -11,6 +11,14 @@ permissions:
 files:
     - source: index.php
       destination: /var/www/vhosts/getshifter.io
+    - source: app
+      destination: /var/www/vhosts/getshifter.io
+    - source: lib
+      destination: /var/www/vhosts/getshifter.io
+    - source: composer.json
+      destination: /var/www/vhosts/getshifter.io
+    - source: .gitignore
+      destination: /var/www/vhosts/getshifter.io
 hooks:
   AfterInstall:
     - location: scripts/update_tasks
