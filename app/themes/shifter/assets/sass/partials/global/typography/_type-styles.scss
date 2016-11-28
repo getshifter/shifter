@@ -10,11 +10,32 @@ p {
   & + p {
     margin: ($base-spacing / 2) 0 0;
   }
+
+  + .accordion__list {
+    margin-top: $space-md;
+  }
 }
 
 b,
 strong {
   @include semi-bold();
+}
+
+.entry-content {
+  ol,
+  ul {
+    margin-top: 0;
+    margin-bottom: $space-lg;
+
+    li {
+      margin-bottom: $space-sm;
+    }
+  }
+
+  p + ul,
+  p + ol {
+    margin-top: $space-md;
+  }
 }
 
 
@@ -89,6 +110,42 @@ strong {
 .section-lead {
   text-align: center;
   margin-bottom: $space-xl;
+}
+
+// ACCORDION ELEMENTS
+// =============================================================================
+
+.accordion__item {
+  margin-bottom: rem(2);
+
+  .accordion__title {
+    padding: $space-md 0;
+  }
+}
+
+.accordion__icon {
+  align-self: center;
+  float: right;
+  margin-left: auto;
+  transform: rotate(0deg);
+}
+
+.accordion__title {
+  display: flex;
+  flex: 1;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+
+  &[aria-expanded="true"] {
+    .accordion__icon {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.accordion__content {
+  padding: 0 0 $space-lg;
 }
 
 

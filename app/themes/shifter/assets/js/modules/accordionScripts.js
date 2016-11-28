@@ -5,8 +5,7 @@
 module.exports = function() {
 
   // Accordions
-  // require('aria-accordion');
-  var accordion = require('aria-accordion');
-  new accordion.Accordion();
+  var tucked = require('tucked');
+  $('.tuck-toggle').tuckit();
 
 };

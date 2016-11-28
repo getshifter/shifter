@@ -1,6 +1,11 @@
 
 (function($) {
 
+  var accordionScripts = require('accordionScripts.js');
+  var commonScripts = require('commonScripts.js');
+  var homeAnimation = require('homeAnimation.js');
+  var pricingCalc = require('pricingCalc.js');
+
 /**
  * Page Specific Functions
  *
@@ -12,8 +17,8 @@ var Apollo = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      var commonScripts = require('commonScripts.js');
       commonScripts();
+      accordionScripts();
     },
     finalize: function() {
       // JavaScript to be fired on all pages, after page specific JS is fired
@@ -22,7 +27,6 @@ var Apollo = {
   // Home page
   front_page: {
     init: function() {
-      var homeAnimation = require('homeAnimation.js');
       homeAnimation();
     },
     finalize: function() {
@@ -31,10 +35,7 @@ var Apollo = {
   },
   get_started: {
     init: function() {
-      var pricingCalc = require('pricingCalc.js');
-      var accordionScripts = require('accordionScripts.js');
       pricingCalc();
-      accordionScripts();
     }
   }
 };

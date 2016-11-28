@@ -12,6 +12,7 @@ $disable-warnings: true !default;
 @import '../../../node_modules/sanitize.css/sanitize';                     // Sanitize
 @import '../../../node_modules/bourbon/app/assets/stylesheets/bourbon.scss';   // Bourbon
 @import '../../../node_modules/bourbon-neat/app/assets/stylesheets/neat.scss'; // Neat
+@import '../../../node_modules/tucked/dist/tucked-styles.scss'; // Tucked.js
 
 // THEME STYLES
 // =============================================================================

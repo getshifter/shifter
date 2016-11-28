@@ -8,31 +8,12 @@
   }
 }
 
-.faqs__item {
-  margin-bottom: rem(2);
-}
-
-.faq__icon {
-  align-self: center;
-  float: right;
-  margin-left: auto;
-  transform: rotate(0deg);
-}
-
-.faq__title {
-  display: flex;
-  flex: 1;
-  padding: $space-lg $space-md;
-  text-align: left;
-  width: 100%;
-
-  &[aria-expanded="true"] {
-    .faq__icon {
-      transform: rotate(180deg);
-    }
+.faqs__list {
+  .accordion__title {
+    padding: $space-lg $space-md;
   }
-}
 
-.faq__content {
-  padding: 0 $space-md $space-lg;
+  .accordion__content {
+    padding: 0 $space-md $space-lg;
+  }
 }

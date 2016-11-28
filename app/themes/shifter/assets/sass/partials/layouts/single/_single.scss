@@ -7,7 +7,8 @@
 
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     color: $black;
 
     + p {
@@ -18,7 +19,8 @@
   p {
     + h1,
     + h2,
-    + h3 {
+    + h3,
+    + h4 {
       margin-top: $space-lg;
     }
   }
@@ -35,6 +37,11 @@
 
   h3 {
     @extend .sm-sans;
+    margin-bottom: $space-sm;
+  }
+
+  h4 {
+    @extend .xs-sans;
     margin-bottom: $space-sm;
   }
 }
