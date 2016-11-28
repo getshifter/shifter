@@ -1,8 +1,8 @@
 #!/bin/bash
-cd /var/www/vhosts/getshifter.io.sub
+cd /var/www/vhosts/getshifter.io
 /usr/local/bin/composer install -n > /tmp/composer.log
 cd app/themes/shifter
 /usr/local/bin/npm install > /tmp/npm.log
 /usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
 /usr/bin/gulp --production > /tmp/gulp.log
-chown -R nginx:nginx /var/www/vhosts/getshifter.io.sub
+chown -R nginx:nginx /var/www/vhosts/getshifter.io
