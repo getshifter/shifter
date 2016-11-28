@@ -4,3 +4,17 @@ machine:
 test:
   post:
     - ls -la /
+deployment:
+  staging:
+    branch: master
+    codedeploy:
+      getshifter.io:
+        application_root: /
+        region: us-east-1
+        revision_location:
+          revision_type: S3
+          s3_location:
+            bucket: deploy-getshifter.io
+            key_pattern: getshifter.io-{BRANCH}-{SHORT_COMMIT}
+        deployment_group: getshifter.io
+        deployment_config: CodeDeployDefault.OneAtATime
