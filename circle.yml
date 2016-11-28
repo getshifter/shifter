@@ -6,7 +6,7 @@ test:
     - ls -la /
 deployment:
   staging:
-    branch: deploy
+    branch: master
     codedeploy:
       getshifter.io:
         application_root: /
