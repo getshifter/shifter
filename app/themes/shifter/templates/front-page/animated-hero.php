@@ -1,4 +1,6 @@
+<?php if (WP_ENV == 'development'): ?>
 <div id="trigger"></div>
+<?php endif; ?>
 
 <section id="animation-board" class="shifter-animation gradient">
   <div id="start-text" class="shifter-animation__start-text">

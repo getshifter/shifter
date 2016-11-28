@@ -1,2 +1,13 @@
 // Global Page Styles
 // ------------------
+
+.page__article {
+  @include center-column(10);
+  padding: $space-lg;
+}
+
+.page {
+  .single__content .entry-content {
+    @include span-columns(12);
+  }
+}

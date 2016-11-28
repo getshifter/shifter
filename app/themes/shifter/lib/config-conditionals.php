@@ -26,7 +26,7 @@ function hide_sidebar() {
  */
 function hide_page_header() {
 
-  if(is_front_page()) {
+  if(is_front_page() || is_page(array('privacy-policy', 'terms-of-service'))) {
     return true;
   }
 
