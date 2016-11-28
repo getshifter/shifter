@@ -11,7 +11,7 @@
         <div class="global-signup__title">
           <h1 class="md-sans black"><span>Are you ready for the next big thing?</span><br>Get started with Shifter today!</h1>
         </div>
-        <a href="#" class="btn-outline--purple">Sign up</a>
+        <a href="https://go.getshifter.io/#register" class="btn-outline--purple">Sign up</a>
       </article>
     </div>
   </section>
@@ -22,7 +22,7 @@
         <div class="global-signup__title">
           <h1 class="md-sans white"><span>Are you ready for the next big thing?</span><br>Get started with Shifter today!</h1>
         </div>
-        <a href="#" class="btn-outline--white">Sign up</a>
+        <a href="https://go.getshifter.io/#register" class="btn-outline--white">Sign up</a>
       </article>
     </div>
   </section>

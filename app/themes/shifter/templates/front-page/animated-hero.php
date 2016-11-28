@@ -10,8 +10,8 @@
     <h1 class="xl-sans white">Hi,<br>I’m Shifter</h1>
     <p>And I’m here to bring serverless architecture to the WordPress platform for the very first time.</p>
     <div class="shifter-animation__buttons btn-group">
-      <a href="#" class="btn-outline--white">Login</a>
-      <a href="#" class="btn-outline--white">Signup</a>
+      <a href="https://go.getshifter.io/" class="btn-outline--white">Login</a>
+      <a href="https://go.getshifter.io/#register" class="btn-outline--white">Signup</a>
     </div>
   </div>
 </section>
