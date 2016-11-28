@@ -33,8 +33,8 @@
     </article>
     <article class="pricing-calc">
       <header class="white pricing__lead">
-        <h1 class="lg-sans">Flexible, pay as you go pricing</h1>
-        <h3 class="xs-sans">With Shifter, you can power an unlimited number of sites for a flexible monthly fee.Starting at $30/month, Shifter will only charge you for the storage and data transfer capabilities you need.</h3>
+        <h1 class="lg-sans">Need more storage or larger transfer capabilities?</h1>
+        <h3 class="xs-sans">See our pricing calculator for additional pay as you go pricing.</h3>
       </header>
       <div class="calc__wrap _white">
         <div class="calc__title">
