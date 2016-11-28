@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /var/www/vhosts/getshifter.io.sub
-/usr/local/bin/composer install > /tmp/composer.log
+/usr/local/bin/composer install -n > /tmp/composer.log
 cd app/themes/shifter
 /usr/local/bin/npm install > /tmp/npm.log
 /usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
