@@ -1,2 +1,7 @@
 #!/bin/bash
-pwd
+cd /var/www/vhosts/getshifter.io
+composer install
+cd app/themes/shifter
+npm install
+gulp --production
+chown -R nginx:nginx /var/www/vhosts/getshifter.io
