@@ -25,7 +25,7 @@
       $pages = get_pages($pages);
 
       foreach ($pages as $page) {
-        $id     = $page->id;
+        $id     = $page->ID;
         $title  = $page->post_title;
         $link   = get_permalink($id);
         ?>
