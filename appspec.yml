@@ -17,8 +17,6 @@ files:
       destination: /var/www/vhosts/getshifter.io.sub/lib
     - source: composer.json
       destination: /var/www/vhosts/getshifter.io.sub
-    - source: .gitignore
-      destination: /var/www/vhosts/getshifter.io.sub
 hooks:
   AfterInstall:
     - location: scripts/update_tasks
