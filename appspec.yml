@@ -8,6 +8,9 @@ permissions:
      mode: 644
      type:
        - file
+files:
+    - source: index.php
+      destination: /var/www/vhosts/getshifter.io
 hooks:
   AfterInstall:
     - location: scripts/update_tasks
