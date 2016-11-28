@@ -12,9 +12,9 @@ files:
     - source: index.php
       destination: /var/www/vhosts/getshifter.io
     - source: app
-      destination: /var/www/vhosts/getshifter.io
+      destination: /var/www/vhosts/getshifter.io/app
     - source: lib
-      destination: /var/www/vhosts/getshifter.io
+      destination: /var/www/vhosts/getshifter.io/lib
     - source: composer.json
       destination: /var/www/vhosts/getshifter.io
     - source: .gitignore
