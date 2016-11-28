@@ -63,7 +63,7 @@
         </article>
       </section>
       <section class="global-footer__signup btn-group--stacked">
-        <a href="#" class="btn-outline--white">Login</a>
+        <a href="https://go.getshifter.io/" class="btn-outline--white">Login</a>
         <a href="#" class="btn-outline--white">Signup</a>
       </section>
     </article>

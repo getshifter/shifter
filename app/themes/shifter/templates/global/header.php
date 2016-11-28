@@ -14,7 +14,7 @@
         <?= Util\Listless_WP_Nav('primary_navigation'); ?>
       </div>
       <div class="btn-group signup-links">
-        <a class="btn-outline--white" href="#">Login</a>
+        <a class="btn-outline--white" href="https://go.getshifter.io/">Login</a>
         <a class="btn-outline--white" href="https://go.getshifter.io/#register">Sign up</a>
       </div>
     </nav>
