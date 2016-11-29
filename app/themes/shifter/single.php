@@ -8,16 +8,16 @@
             <?php the_content(); ?>
           </div>
           <section class="single__share">
-            <a href="<?= esc_url(home_url('/')); ?>">
+            <a href="https://github.com/getshifter" target="_blank">
               <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
             </a>
-            <a href="<?= esc_url(home_url('/')); ?>">
+            <a href="https://twitter.com/getshifter" target="_blank">
               <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/twitter-icon.svg" alt="">
             </a>
-            <a href="<?= esc_url(home_url('/')); ?>">
+            <a href="https://www.facebook.com/getshifter/" target="_blank">
               <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/facebook-icon.svg" alt="">
             </a>
-            <a href="<?= esc_url(home_url('/')); ?>">
+            <a href="https://www.instagram.com/getshifter/" target="_blank">
               <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/instagram-icon.svg" alt="">
             </a>
           </section>
