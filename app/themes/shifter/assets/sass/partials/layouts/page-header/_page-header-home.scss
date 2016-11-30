@@ -3,7 +3,7 @@
   height: 100vh;
   height: calc(100vh - 100px);
 
-  @include media($medium) {
+  @include media($small) {
     min-height: 800px;
   }
 
@@ -14,6 +14,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-60%, -120%);
+
+    @include media($small) {
+      transform: translate(-60%, -50%);
+    }
 
     @include media($medium) {
       transform: translate(-50%, -50%);
@@ -45,7 +49,7 @@
   &__end-text {
     opacity: 0;
 
-    @include media($medium) {
+    @include media($small) {
       transform: translate(0, -50%);
     }
   }
@@ -64,9 +68,8 @@
 .shifter-animation__end-text {
 
   @include span-columns(10);
-  @include shift(1);
 
-  @include media($medium) {
+  @include media($small) {
     width: rem(400);
   }
 
