@@ -31,3 +31,15 @@
   }
 
 }
+
+span.wpcf7-not-valid-tip {
+  text-align: left;
+  color: $white;
+}
+
+div.wpcf7-validation-errors {
+  border: 0;
+  border-top: rem(2) solid $white;
+  border-radius: rem(4);
+  color: $white;
+}
