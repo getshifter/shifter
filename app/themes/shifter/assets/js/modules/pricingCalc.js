@@ -9,23 +9,25 @@ module.exports = function() {
 
   // Add Value to Button
   function buttonValues() {
-    var $element = $('input[type="range"]');
-    var $handle;
+    $('input[type="range"]').each( function() {
+      var $element = $(this);
+      var $handle;
 
-    $element.rangeslider({
-      polyfill: false,
-      onInit: function() {
-        $handle = $('.rangeslider__handle', $(this.$range).next());
+      $element.rangeslider({
+        polyfill: false,
+        onInit: function() {
+          $handle = $('.rangeslider__handle', this.$range);
+          updateHandle($handle[0], this.value);
+        }
+      })
+      .on('input', function() {
         updateHandle($handle[0], this.value);
-      }
-    })
-    .on('input', function() {
-      updateHandle($handle[0], this.value);
-    });
+      });
 
-    function updateHandle(el, val) {
-      el.textContent = val + 'GB';
-    }
+      function updateHandle(el, val) {
+        el.textContent = val + 'GB';
+      }
+    });
   }
 
   // Combine Range Calc Price
