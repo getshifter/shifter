@@ -15,7 +15,7 @@ module.exports = function() {
     $element.rangeslider({
       polyfill: false,
       onInit: function() {
-        $handle = $('.rangeslider__handle', this.$range);
+        $handle = $('.rangeslider__handle', $(this.$range).next());
         updateHandle($handle[0], this.value);
       }
     })
