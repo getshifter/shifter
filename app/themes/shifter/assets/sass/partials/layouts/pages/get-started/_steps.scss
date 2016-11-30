@@ -41,6 +41,11 @@
   }
 }
 
+.step__icon {
+  display: flex;
+  align-items: center;
+}
+
 .step__title {
   margin-top: $space-md;
 }
