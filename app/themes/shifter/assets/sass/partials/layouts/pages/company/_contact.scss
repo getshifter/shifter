@@ -6,25 +6,28 @@
 }
 
 .contact__form {
-  > div {
-    @include span-columns(6);
-    @include omega(2n);
-    margin-bottom: $space-md;
-
-    &.contact__message {
-      @include span-columns(12);
-      @include omega();
-    }
-
-    &.contact__submit {
-      width: 100%;
-      text-align: center;
-    }
-
-  }
+  text-align: center;
 
   label {
     display: block;
     padding-top: $space-sm;
+    text-align: left;
   }
+}
+
+.contact__field {
+  @include span-columns(6);
+  @include omega(2n);
+  margin-bottom: $space-md;
+
+  &.contact__message {
+    @include span-columns(12);
+    @include omega();
+  }
+
+  &.contact__submit {
+    width: 100%;
+    text-align: center;
+  }
+
 }
