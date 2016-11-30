@@ -58,20 +58,24 @@ get_template_part('templates/global/head'); ?>
       }
       e.preventDefault(); // Prevent the default form submit
       var $this = $('#contact-form'); // Cache this
-      jQuery.ajax({
-         type : "post",
-         dataType : "json",
-         url : myAjax.ajaxurl,
-         data : {action: "my_user_vote", post_id : post_id, nonce: nonce},
-         success: function(response) {
-            if(response.type == "success") {
-               jQuery("#vote_counter").html(response.vote_count)
-            }
-            else {
-               alert("Your vote could not be added")
-            }
-         }
-      }) 
+      $.ajax({
+        url: '<?php echo admin_url("admin-ajax.php") ?>', // Let WordPress figure this url out...
+        type: 'post',
+        dataType: 'JSON', // Set this so we don't need to decode the response...
+        data: $this.serialize(), // One-liner form data prep...
+        beforeSend: function () {
+          is_sending = true;
+          // You could do an animation here...
+        },
+        error: handleFormError,
+        success: function (data) {
+          if (data.status === 'success') {
+            alert('Success.');
+          } else {
+            handleFormError(); // If we don't get the expected response, it's an error...
+          }
+        }
+      });
     });
 
     function handleFormError () {
