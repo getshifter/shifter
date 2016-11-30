@@ -16,9 +16,6 @@
             <h2 class="case-study__title black md-sans">J2 Design</h2>
             <h3 class="case-study__subtitle xs-sans">Combining the best of both worlds</h3>
           </header>
-          <!-- <div class="case-study__content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et ligula sed velit tempor auctor eget id sapien. Cras dapibus est ac leo porttitor faucibus. Aliquam erat volutpat. Sed eu bibendum lorem. Duis fermentum ultrices diam vitae venenatis. Phasellus nec lobortis urna. Quisque sed tincidunt metus, efficitur aliquam mauris. Nunc luctus quis nunc vitae pharetra. Aliquam suscipit orci ut felis scelerisque sagittis.</p>
-          </div> -->
           <footer class="case-study__footer">
             <div class="case-study__quote sm-sans purple">
               <p>"Shifter takes the benefits of a static site generator and the power of WordPress and puts them together into one amazing service.."</p>
