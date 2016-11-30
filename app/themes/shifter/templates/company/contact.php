@@ -12,7 +12,7 @@
     <section class="contact">
 
       <div class="contact__form">
-        <?php echo do_shortcode( '[contact-form-7 id="70" title="Contact form 1"]' ); ?>
+        <?php echo do_shortcode( '[contact-form-7 id="70" title="Support Form"]' ); ?>
       </div>
 
     </section>

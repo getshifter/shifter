@@ -37,7 +37,8 @@ span.wpcf7-not-valid-tip {
   color: $white;
 }
 
-div.wpcf7-validation-errors {
+div.wpcf7-validation-errors,
+div.wpcf7-mail-sent-ok {
   border: 0;
   border-top: rem(2) solid $white;
   border-radius: rem(4);
