@@ -18,7 +18,18 @@
         <a class="btn-outline--white" href="https://go.getshifter.io/#register">Sign up</a>
       </div>
     </nav>
-    <a class="global-nav-toggle" href="#">&#9776;</a>
+    <a href="#" class="nav__toggle" id="js__nav-toggle">
+      <div class="open">&#9776;</div>
+      <div class="close">&times;</div>
+    </a>
   </div>
+
 </header>
+
+<nav class="nav__drawer">
+  <?php
+    echo Util\Listless_WP_Nav('primary_navigation');
+  ?>
+</nav>
+
 <div style="height:100px"></div>

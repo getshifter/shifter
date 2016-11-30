@@ -16,6 +16,18 @@
     align-items: center;
     height: rem(100);
   }
+
+  .open,
+  .close {
+    @include standard-trans;
+    position: absolute;
+    right: rem(50);
+    font-size: rem(30);
+  }
+
+  .close {
+    font-size: rem(60)
+  }
 }
 
 .global-nav {
@@ -58,4 +70,80 @@
 .logo {
   margin-right: auto;
   width: rem(130);
+}
+
+.nav__toggle {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  @include media($medium) {
+    display: none;
+  }
+}
+
+
+// Nav Drawer
+
+.nav__drawer {
+  @include standard-trans();
+  padding-top: rem(130);
+  background-color: $black-light;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+
+  a {
+    display: block;
+    color: $white;
+    font-family: $sans-alt;
+    text-decoration: underline;
+    font-size: rem(30);
+    font-weight: 600;
+    line-height: 1.2;
+    padding: rem(10) rem(50) rem(10) rem(50);
+
+    @include media($small) {
+      padding: rem(15) rem(180) rem(15) rem(50);
+    }
+
+    @include media($medium) {
+      padding: rem(15) rem(180) rem(15) rem(50);
+    }
+
+    &:first-of-type {
+      padding-top: rem(40);
+    }
+
+    &:last-of-type {
+      padding-bottom: rem(40);
+    }
+
+    &:hover {
+      color: $white;
+      outline: none;
+    }
+  }
+}
+
+.open-nav {
+
+  .open {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  .close {
+    opacity: 1;
+  }
+
+  .nav__drawer {
+    transform: translateX(0);
+  }
+}
+
+.close {
+  opacity: 0;
 }
