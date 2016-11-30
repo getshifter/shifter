@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 82.1 79.8" style="enable-background:new 0 0 82.1 79.8;" xml:space="preserve">
+	 viewBox="0 0 58.8 83.5" style="enable-background:new 0 0 58.8 83.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F2E0ED;}
-	.st1{fill:#E8C4DD;}
-	.st2{fill:#DBA1C9;}
-	.st3{fill:#C86FAD;}
-	.st4{fill:#BE529F;}
+	.st0{fill:#FBCBC7;}
+	.st1{fill:none;stroke:#BD529E;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#EE2658;stroke-width:5;stroke-miterlimit:10;}
 </style>
-<rect y="40" class="st0" width="14.1" height="39.8"/>
-<rect x="17" y="30" class="st1" width="14.1" height="49.8"/>
-<rect x="34" y="20" class="st2" width="14.1" height="59.8"/>
-<rect x="51" y="10" class="st3" width="14.1" height="69.8"/>
-<rect x="68" class="st4" width="14.1" height="79.8"/>
+<circle class="st0" cx="13.8" cy="13.8" r="13.8"/>
+<polygon class="st0" points="48.7,35 32,35 32,81.2 48.7,81.2 48.7,35 "/>
+<polygon class="st1" points="23.6,34.7 23.6,75.1 54.2,27.8 36.8,27.8 36.8,12.8 13.3,12.8 13.3,34.7 "/>
+<polyline class="st2" points="36.8,30.2 36.8,12.8 13.3,12.8 13.3,34.7 26.1,34.7 "/>
 </svg>

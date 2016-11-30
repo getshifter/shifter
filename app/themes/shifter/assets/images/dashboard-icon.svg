@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 284.3 238.9" style="enable-background:new 0 0 284.3 238.9;" xml:space="preserve">
+	 viewBox="0 0 202.2 179.2" style="enable-background:new 0 0 202.2 179.2;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#BE529F;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FBCBC7;}
+	.st1{fill:none;stroke:#EE2658;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#BD529E;stroke-width:5;stroke-miterlimit:10;}
+	.st3{fill:#EE2658;}
 </style>
+<path class="st0" d="M103.6,179.2c0-22.7-18.4-41.1-41.1-41.1c-22.7,0-41.1,18.4-41.1,41.1H103.6L103.6,179.2z"/>
+<polygon class="st0" points="162.6,178.7 162.6,95.9 76,95.9 162.6,178.7 "/>
+<circle class="st0" cx="164.6" cy="37.6" r="37.6"/>
+<polygon class="st0" points="37.1,6.5 0,6.5 0,108.9 37.1,108.9 37.1,6.5 "/>
+<rect x="13.1" y="52.8" class="st1" width="43" height="106.8"/>
+<rect x="67.9" y="52.8" class="st2" width="114.3" height="64.9"/>
+<rect x="13.1" y="20" class="st2" width="169.1" height="22"/>
+<rect x="67.9" y="129.2" class="st2" width="30.7" height="30.3"/>
+<rect x="110.3" y="129.2" class="st1" width="30.7" height="30.3"/>
 <g>
-	<rect x="0.1" y="48" class="st0" width="83" height="191"/>
-	<rect x="90.7" y="48" class="st0" width="192.4" height="125.3"/>
-	<rect class="st0" width="283" height="42.5"/>
-	<rect x="90.7" y="180.3" class="st0" width="59.2" height="58.6"/>
-	<rect x="157.2" y="180.3" class="st0" width="59.2" height="58.6"/>
-	<g>
-		<path class="st1" d="M210.7,66.9c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2c0,4-3.2,7.2-7.2,7.2C213.9,74,210.7,70.8,210.7,66.9"/>
-		<path class="st1" d="M233.2,66.9c0-4,3.2-7.2,7.2-7.2c4,0,7.2,3.2,7.2,7.2c0,4-3.2,7.2-7.2,7.2C236.4,74,233.2,70.8,233.2,66.9"/>
-		<path class="st1" d="M255.7,66.9c0-4,3.2-7.2,7.2-7.2s7.2,3.2,7.2,7.2c0,4-3.2,7.2-7.2,7.2S255.7,70.8,255.7,66.9"/>
-	</g>
-	<polygon class="st0" points="225.1,180.3 225.1,236.5 284.3,180.3 	"/>
+	<path class="st3" d="M155.1,61.8c0-1.2,1-2.2,2.2-2.2s2.2,1,2.2,2.2c0,1.2-1,2.2-2.2,2.2S155.1,63,155.1,61.8"/>
+	<path class="st3" d="M161.8,61.8c0-1.2,1-2.2,2.2-2.2c1.2,0,2.2,1,2.2,2.2c0,1.2-1,2.2-2.2,2.2C162.8,63.9,161.8,63,161.8,61.8"/>
+	<path class="st3" d="M168.6,61.8c0-1.2,1-2.2,2.2-2.2s2.2,1,2.2,2.2c0,1.2-1,2.2-2.2,2.2S168.6,63,168.6,61.8"/>
 </g>
+<polygon class="st2" points="153.3,129.2 153.3,156.7 180,129.2 "/>
 </svg>
