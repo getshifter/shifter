@@ -20,7 +20,7 @@
         <h3 class="md-sans stats__subtitle">developed by team Shifter</h3>
       </article>
       <article class="stats__item white _purple match-h">
-        <h2 class="sm-caps xl-sans stats__title">1.96 million</h2>
+        <h2 class="sm-caps xl-sans stats__title">2.01 million</h2>
         <h3 class="md-sans stats__subtitle">downloads and counting!</h3>
       </article>
     </section>
