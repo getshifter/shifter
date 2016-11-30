@@ -2,7 +2,10 @@
 // -----------------
 
 .contact {
-  @include center-column(8);
+
+  @include media($small) {
+    @include center-column(8);
+  }
 }
 
 .contact__form {
