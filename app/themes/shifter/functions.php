@@ -8,6 +8,7 @@
  */
 $function_includes = [
   'config-settings',          // Variables and Theme Support
+  'config-contact',           // Contact Form Settings
   'config-conditionals',      // Config Conditionals
   'theme-structure',          // Build Theme Layouts
   'theme-wrapper',            // Theme wrapper class

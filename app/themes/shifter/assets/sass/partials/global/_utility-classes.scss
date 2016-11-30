@@ -58,6 +58,10 @@
   @extend %purple-gradient;
 }
 
+.hidden {
+  display: none;
+}
+
 .img-r {
   @include img-responsive();
 }

@@ -4,7 +4,7 @@
 
 module.exports = function() {
 
-  console.log("Hi, I'm Shifter.");
+  console.log("Hi, I'm Shifter. ◥ ● ◼");
 
   // Match Height
   require('matchHeight');
