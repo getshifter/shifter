@@ -1,6 +1,7 @@
 # Application
 app/plugins/*
 !app/plugins/.gitkeep
+!app/plugins/beta-redirect.php
 app/upgrade
 app/uploads/*
 !app/uploads/.gitkeep
