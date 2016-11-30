@@ -11,7 +11,7 @@
   <!-- Remove .no-js class if possible -->
   <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
 
-  <link rel="icon" href="<?= $icon_path ?>favicon.png">
+  <link rel="icon" href="<?= $icon_path ?>favicon.png?v=1">
 
   <link rel="alternate" type="application/rss+xml" title="<?= get_bloginfo('name'); ?> Feed" href="<?= esc_url(get_feed_link()); ?>">
 
