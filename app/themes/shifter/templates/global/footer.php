@@ -72,16 +72,16 @@
     <article class="container-flex">
       <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Shifter | A <span class="purple">DigitalCube</span> Company</h6>
       <section class="global-footer__social">
-        <a href="https://github.com/getshifter">
+        <a href="https://github.com/getshifter" target="_blank">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
         </a>
-        <a href="https://twitter.com/getshifter">
+        <a href="https://twitter.com/getshifter" target="_blank">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/twitter-icon.svg" alt="">
         </a>
-        <a href="https://www.facebook.com/getshifter">
+        <a href="https://www.facebook.com/getshifter/" target="_blank">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/facebook-icon.svg" alt="">
         </a>
-        <a href="https://www.instagram.com/getshifter/">
+        <a href="https://www.instagram.com/getshifter/" target="_blank">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/instagram-icon.svg" alt="">
         </a>
       </section>
