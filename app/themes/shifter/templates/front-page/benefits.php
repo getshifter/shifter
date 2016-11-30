@@ -59,10 +59,10 @@
     </div>
     <section class="white md-sans quote">
       <p>
-        “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor sapien id velit fringilla, id pharetra odio dapibus. Nam nec massa porta, suscipit mauris fringilla, auctor ante.”
+        "Shifter is to WordPress hosting what the WordPress REST API is to app development - the future."
       </p>
       <aside class="">
-        <h3 class="quote__author xs-sans sm-caps">– Shaun Baer, customer, 2016</h3>
+        <h3 class="quote__author xs-sans sm-caps">– Shaun Baer, 2016</h3>
       </aside>
     </section>
   </div>
