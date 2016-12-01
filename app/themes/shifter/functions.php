@@ -20,6 +20,7 @@ $function_includes = [
   // 'misc/extend-taxonomy',        // Custom Taxonomies
   'misc/extend-admin',           // Customize WP Admin
   // 'misc/extend-queries',         // Alterations to queries via hooks
+  'theme-zendesk'
 ];
 
 
