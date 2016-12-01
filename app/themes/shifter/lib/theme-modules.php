@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Modules;
+namespace Shifter\Modules;
 
 /**
  * Create modular, reusable HTML components

@@ -1,8 +1,8 @@
 <?php
 
-namespace Apollo\Admin\Structure;
-use Apollo\Config\Condition;
-use Apollo\Theme\Wrapper;
+namespace Shifter\Admin\Structure;
+use Shifter\Config\Condition;
+use Shifter\Theme\Wrapper;
 
 
 // SIDEBAR LOGIC

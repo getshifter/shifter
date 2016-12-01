@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Config\Condition;
+namespace Shifter\Config\Condition;
 
 
 

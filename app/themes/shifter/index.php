@@ -3,7 +3,7 @@
  * Index
  */
 
-use Apollo\Modules;
+use Shifter\Modules;
 ?>
 
 <section class="blog _gradient">

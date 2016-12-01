@@ -1,5 +1,5 @@
 <?php
-  use Apollo\Extend\Util;
+  use Shifter\Extend\Util;
 ?>
 
 <header class="global-header" role="banner">

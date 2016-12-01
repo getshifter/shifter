@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Functions\Queries;
+namespace Shifter\Functions\Queries;
 
 /**
  * Alter queries based on post type.

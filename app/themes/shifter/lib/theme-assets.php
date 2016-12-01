@@ -1,7 +1,7 @@
 <?php
 
-namespace Apollo\Assets;
-use Apollo\Extend\Util;
+namespace Shifter\Assets;
+use Shifter\Extend\Util;
 
 
 /**

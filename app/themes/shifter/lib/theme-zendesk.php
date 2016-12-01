@@ -1,5 +1,5 @@
 <?php
-namespace Apollo\Theme\ZendeskAPI;
+namespace Shifter\Theme\ZendeskAPI;
 
 function get_zendesk_articles(
   $cache_time = '-1 hour'

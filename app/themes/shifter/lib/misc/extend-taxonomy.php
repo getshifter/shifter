@@ -1,7 +1,7 @@
 <?php
 
-namespace Apollo\Extend\Taxonomies;
-use Apollo\Extend\PostTypes;
+namespace Shifter\Extend\Taxonomies;
+use Shifter\Extend\PostTypes;
 
 /**
  * Generate Labels for Custom Post Types

@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Extend\PostTypes;
+namespace Shifter\Extend\PostTypes;
 
 
 /**

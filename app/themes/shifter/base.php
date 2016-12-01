@@ -1,8 +1,8 @@
 <?php
 
-namespace Apollo\Base;
-use Apollo\Admin\Structure;
-use Apollo\Config\Condition;
+namespace Shifter\Base;
+use Shifter\Admin\Structure;
+use Shifter\Config\Condition;
 
 get_template_part('templates/global/head'); ?>
 

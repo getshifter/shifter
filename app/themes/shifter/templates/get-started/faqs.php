@@ -3,8 +3,8 @@
  * Get Started: FAQs
  */
 
-namespace Apollo\FAQs;
-use Apollo\Theme\ZendeskAPI;
+namespace Shifter\FAQs;
+use Shifter\Theme\ZendeskAPI;
 ?>
 
 <section class="_gray-light section-padding">

@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Extend\Admin;
+namespace Shifter\Extend\Admin;
 
 // =============================================================================
 // Functions to alter the appearance of admin pages

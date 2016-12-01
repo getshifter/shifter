@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Config\Settings;
+namespace Shifter\Config\Settings;
 
 /**
  * THEME SETTING CONFIGURATION

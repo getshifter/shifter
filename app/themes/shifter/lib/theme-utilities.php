@@ -1,6 +1,6 @@
 <?php
 
-namespace Apollo\Extend\Util;
+namespace Shifter\Extend\Util;
 
 /**
  * Add custom body classes
