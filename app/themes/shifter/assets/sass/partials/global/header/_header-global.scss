@@ -16,18 +16,16 @@
     align-items: center;
     height: rem(100);
   }
+}
 
-  .open,
-  .close {
-    @include standard-trans;
-    position: absolute;
-    right: rem(50);
-    font-size: rem(30);
-  }
+.nav__open,
+.nav__close {
+  @include standard-trans;
+  font-size: rem(30);
+}
 
-  .close {
-    font-size: rem(60)
-  }
+.nav__close {
+  font-size: rem(60);
 }
 
 .global-nav {
@@ -87,7 +85,8 @@
 
 .nav__drawer {
   @include standard-trans();
-  padding-top: rem(130);
+  z-index: 9999;
+  padding-top: rem(10);
   background-color: $black-light;
   height: 100%;
   position: fixed;
@@ -95,7 +94,7 @@
   top: 0;
   transform: translateX(100%);
 
-  a {
+  .nav__items a {
     display: block;
     color: $white;
     font-family: $sans-alt;
@@ -130,20 +129,15 @@
 
 .open-nav {
 
-  .open {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-
-  .close {
-    opacity: 1;
-  }
-
   .nav__drawer {
     transform: translateX(0);
   }
 }
 
-.close {
-  opacity: 0;
+.nav__close {
+  padding: 0 rem(50);
+
+  a {
+    color: $white;
+  }
 }
