@@ -9,8 +9,8 @@
   <div class="container">
     <article class="steps__wrap">
       <header class="steps__lead section-lead">
-        <h1 class="lg-sans purple">As easy as 1, 2, 3, 4…</h1>
-        <h3 class="xs-sans">Shifter is here to make your life easier. Follow these simple<br>steps and you’ll have a brand new site in no time.</h3>
+        <h1 class="lg-sans purple">Shifter is here to make your life easier.</h1>
+        <h3 class="xs-sans">Follow these simple steps and you’ll have a brand new site in no time.</h3>
       </header>
       <section class="steps row">
         <article class="step__item">
@@ -26,7 +26,7 @@
           <div class="match-h step__icon">
             <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/login-icon.svg" alt="">
           </div>
-          <h2 class="step__title black sm-sans"><span class="purple">1.</span> Log in</h2>
+          <h2 class="step__title black sm-sans"><span class="purple">2.</span> Log in</h2>
           <div class="step__desc xs-sans">
             Access a personalized dashboard to monitor all of your sites in real time.
           </div>
@@ -35,7 +35,7 @@
           <div class="match-h step__icon">
             <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/create-icon.svg" alt="">
           </div>
-          <h2 class="step__title black sm-sans"><span class="purple">1.</span> Create/import</h2>
+          <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create/import</h2>
           <div class="step__desc xs-sans">
             Migrate an existing site or start a fresh site with one click.
           </div>
@@ -44,7 +44,7 @@
           <div class="match-h step__icon">
             <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/power-icon.svg" alt="">
           </div>
-          <h2 class="step__title black sm-sans"><span class="purple">1.</span> Generate</h2>
+          <h2 class="step__title black sm-sans"><span class="purple">4.</span> Generate</h2>
           <div class="step__desc xs-sans">
             Deploy your WordPress site using Shifter.
           </div>
