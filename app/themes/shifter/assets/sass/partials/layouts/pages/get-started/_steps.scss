@@ -44,6 +44,16 @@
 .step__icon {
   display: flex;
   align-items: center;
+
+  img {
+    margin: 0 auto;
+  }
+
+  @include media($medium) {
+    img {
+      margin: 0;
+    }
+  }
 }
 
 .step__title {
