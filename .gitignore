@@ -2,6 +2,7 @@
 app/plugins/*
 !app/plugins/.gitkeep
 app/upgrade
+app/cache
 app/uploads/*
 !app/uploads/.gitkeep
 app/mu-plugins/*
