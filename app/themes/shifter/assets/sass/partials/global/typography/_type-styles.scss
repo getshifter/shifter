@@ -61,11 +61,11 @@ strong {
   font-weight: 600;
   line-height: 1.18;
 
-  @include media($medium) {
+  @include media($small) {
     font-size: rem(46);
   }
 
-  @include media($small) {
+  @include media($medium) {
     font-size: rem(60);
     line-height: 1.2;
   }
