@@ -17,6 +17,7 @@
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Extreme Speed</h2>
+            <h3 class="xs-sans benefits__subtitle"><i>HTTP/2</i></h3>
             <p>
               Static HTML files make PHP and MySQL obsolete, so content can be delivered to your user’s screen at lightning speed no matter where they are in the world.
             </p>
@@ -28,6 +29,7 @@
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Durability</h2>
+            <h3 class="xs-sans benefits__subtitle"><i>Global CDN</i></h3>
             <p>
               Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
             </p>
@@ -39,6 +41,7 @@
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Safety + Security</h2>
+            <h3 class="xs-sans benefits__subtitle"><i>SSL Included</i></h3>
             <p>
               Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
             </p>
@@ -50,6 +53,7 @@
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Maintenance-free</h2>
+            <h3 class="xs-sans benefits__subtitle"><i>Serverless Architecture</i></h3>
             <p>
               Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
             </p>
