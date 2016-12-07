@@ -9,8 +9,8 @@
   <div class="container">
     <article class="pricing">
       <header class="white pricing__lead">
-        <h1 class="lg-sans">Flexible, pay as you go pricing</h1>
-        <h3 class="xs-sans">With Shifter, you can power an unlimited number of sites for a flexible monthly fee.Starting at $30/month, Shifter will only charge you for the storage and data transfer capabilities you need.</h3>
+        <h1 class="lg-sans">Flexible pricing to fit your needs</h1>
+        <h3 class="xs-sans">With Shifter, you can power an unlimited number of sites starting at $30/month. Our monthly costs increase only when your site data and storage demands grow, so you’ll never pay more for what you need—and never be left unprepared for traffic spikes.</h3>
       </header>
       <div class="plans">
         <div class="plans__signup black-light _white">
