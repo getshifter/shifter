@@ -49,6 +49,13 @@
 .single__content {
   .entry-content {
     @include span-columns(9);
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    a {
+      word-break: break-all;
+    }
   }
   .single__share {
     @include span-columns(2.5);
