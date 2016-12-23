@@ -80,9 +80,13 @@ strong {
 
 .md-sans {
   font-family: $sans;
-  font-size: rem(25);
+  font-size: rem(20);
   font-weight: 700;
   line-height: 1.36;
+
+  @include media($small) {
+    font-size: rem(25);
+  }
 }
 
 .sm-sans {

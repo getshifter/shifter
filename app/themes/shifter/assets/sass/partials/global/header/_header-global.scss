@@ -73,7 +73,6 @@
 .nav__toggle {
   display: flex;
   align-items: center;
-  height: 100%;
 
   @include media($medium) {
     display: none;
@@ -110,10 +109,6 @@
 
     @include media($medium) {
       padding: rem(15) rem(180) rem(15) rem(50);
-    }
-
-    &:first-of-type {
-      padding-top: rem(40);
     }
 
     &:last-of-type {

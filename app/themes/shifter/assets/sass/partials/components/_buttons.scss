@@ -15,6 +15,18 @@
   padding: $space-sm $space-md;
 }
 
+.btn-link {
+  @extend .btn;
+  @extend .sm-caps;
+  @extend .xs-sans;
+  position: relative;
+
+  &:after {
+    font-size: 125%;
+    content:'\00a0\203a';
+  }
+}
+
 .btn-outline--white {
   @extend %btn-outline;
   background-color: transparent;

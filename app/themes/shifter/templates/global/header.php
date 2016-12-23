@@ -26,7 +26,7 @@
 </header>
 
 <nav class="nav__drawer">
-  <div class="js__nav-toggle">
+  <div class="nav__close js__nav-toggle">
     <a href="#">&times;</a>
   </div>
   <div class="nav__items">
