@@ -8,12 +8,25 @@
     text-align: left;
   }
 
+  .container-flex {
+    flex-wrap: wrap;
+
+    @include media($small) {
+      flex-wrap: nowrap;
+    }
+  }
+
   .top {
-    padding-top: $space-lg;
     padding-bottom: $space-xl;
+    padding-top: $space-lg;
   }
 
   .bottom {
+    padding: $space-md 0;
+
+    @include media($small) {
+      padding: 0;
+    }
 
     .container-flex {
       align-items: center;
@@ -82,13 +95,20 @@
 }
 
 .global-footer__copyright {
+  width: 100%;
 
   @include media($small) {
+    width: auto;
     margin-right: auto;
   }
 }
 
 .global-footer__social {
+  width: 100%;
+
+  @include media($small) {
+    width: auto;
+  }
 
   a {
     display: inline-block;

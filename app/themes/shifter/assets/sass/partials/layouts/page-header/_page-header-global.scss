@@ -4,8 +4,8 @@
 .page-header {
   text-align: center;
   background-image: url('../../dist/images/shape-bkg.svg');
-  padding-top: $space-lg;
-  padding-bottom: $space-lg;
+  padding-top: $space-xl;
+  padding-bottom: $space-xl;
 
   @include media($small) {
     padding-top: rem(160);

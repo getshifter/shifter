@@ -73,9 +73,13 @@ strong {
 
 .lg-sans {
   font-family: $sans;
-  font-size: rem(30);
+  font-size: rem(25);
   font-weight: 600;
   line-height: 1.36;
+
+  @include media($small) {
+    font-size: rem(30);
+  }
 }
 
 .md-sans {
