@@ -43,7 +43,7 @@ function label_factory( $name, $singular = false, $plural = false ) {
 // Posts "Blog"
 function post_cpt() {
 
-  $labels = label_factory('Blog', 'Post', 'Blog');
+  $labels = label_factory('Blog', 'Post');
 
   $args = array(
     'label'                 => $labels['name'],
