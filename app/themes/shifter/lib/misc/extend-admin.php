@@ -40,7 +40,7 @@ function hide_on_screen() {
 
 }
 
-add_action( 'init', __NAMESPACE__ . '\\hide_on_screen', 10 );
+//add_action( 'init', __NAMESPACE__ . '\\hide_on_screen', 10 );
 
 
 /**
