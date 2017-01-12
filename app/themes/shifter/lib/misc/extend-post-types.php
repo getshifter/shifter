@@ -48,7 +48,7 @@ function post_cpt() {
   $args = array(
     'label'                 => $labels['name'],
     'labels'                => $labels,
-    'supports'              => array( 'title' ),
+    'supports'              => array( 'title', 'editor' ),
     'taxonomies'            => array(),
     'hierarchical'          => true,
     'public'                => true,
