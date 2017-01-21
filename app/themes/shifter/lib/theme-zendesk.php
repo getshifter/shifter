@@ -6,7 +6,7 @@ function get_zendesk_articles(
 ) {
 
   // $url = 'https://api.instagram.com/v1/users/'.$user_id.'/media/recent/?access_token='.$access_token.'&count='.$count;
-  $url = 'https://getshifter.zendesk.com//api/v2/help_center/sections/206966648/articles.json';
+  $url = 'https://getshifter.zendesk.com/api/v2/help_center/sections/206966648/articles.json';
 
   // sections/{id}/articles.json
   $cache_directory = './app/cache/'; // path to cache folder, name should end in slash, such as './app/cache/'
@@ -32,8 +32,6 @@ function get_zendesk_articles(
     fwrite($fh, $jsonEncode."\n");
   }
 
-  // echo '<pre>'; print_r($jsonData); echo '</pre>';
-
   foreach ($jsonData->articles as $key => $value) { ?>
     <article class="accordion__item _white">
       <button data-target="#article-<?= $value->id ?>" aria-expanded="false" class="xs-sans black accordion__title tuck-toggle">
@@ -44,7 +42,7 @@ function get_zendesk_articles(
         <?= $value->body ?>
       </div>
     </article>
-  <?php }
-}
 
-?>
+    <?php if ($key == 10) { break; } ?>
+  <?php } ?>
+<?php } ?>
