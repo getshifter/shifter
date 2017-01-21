@@ -70,7 +70,7 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "5.3.7",
     "wpackagist-plugin/c3-cloudfront-clear-cache": "4.3.0",
     "wpackagist-plugin/nginx-champuru": "3.2.0",
-    "wpackagist-plugin/contact-form-7": "4.5.1"
+    "wpackagist-plugin/contact-form-7": "4.6"
   },
   "extra": {
     "installer-paths": {

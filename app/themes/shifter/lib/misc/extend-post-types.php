@@ -40,25 +40,11 @@ function label_factory( $name, $singular = false, $plural = false ) {
 
 }
 
-// Posts "Blog"
-function post_cpt() {
 
-  $labels = label_factory('Blog', 'Post', 'Blog');
-
-  $args = array(
-    'label'                 => $labels['name'],
-    'labels'                => $labels,
-    'supports'              => array( 'title' ),
-    'taxonomies'            => array(),
-    'hierarchical'          => true,
-    'public'                => true,
-    'menu_position'         => 5,
-    'menu_icon'             => 'dashicons-admin-page',
-    'rewrite'               => array( 'slug' => 'blog' )
-  );
-
-  register_post_type( 'post', $args );
-
-}
-
-add_action( 'init', __NAMESPACE__ . '\\post_cpt', 0 );
+/**
+ * Set Permalinks via wp_rewrite
+ */
+add_action( 'init', function() {
+  global $wp_rewrite;
+  $wp_rewrite->set_permalink_structure( '/blog/%postname%/' );
+});
