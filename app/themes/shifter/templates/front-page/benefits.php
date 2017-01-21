@@ -31,7 +31,7 @@
             <h2 class="sm-caps black benefits__title">Durability</h2>
             <h3 class="xs-sans benefits__subtitle"><i>Global CDN</i></h3>
             <p>
-              Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
+              Static files guarantee a high-performance website that won’t fail or slow down due to increased traffic.
             </p>
           </div>
         </article>
@@ -43,7 +43,7 @@
             <h2 class="sm-caps black benefits__title">Safety + Security</h2>
             <h3 class="xs-sans benefits__subtitle"><i>SSL Included</i></h3>
             <p>
-              Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
+              The CDN only stores static files, so you don’t have to stress about weaknesses or security holes in your server, WordPress plugins, or PHP.
             </p>
           </div>
         </article>
