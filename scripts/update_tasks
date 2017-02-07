@@ -1,5 +1,10 @@
 #!/bin/bash
 cd /var/www/vhosts/getshifter.io
+if [ -e /var/www/vhosts/getshifter.io/composer.lock ]; then
+  /usr/local/bin/composer update -n > /tmp/composer.log
+else
+  /usr/local/bin/composer install -n > /tmp/composer.log
+fi
 /usr/local/bin/composer install -n > /tmp/composer.log
 cd app/themes/shifter
 /usr/local/bin/npm install > /tmp/npm.log
