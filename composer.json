@@ -63,7 +63,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.6.1",
+    "johnpbloch/wordpress": "4.7.*",
     "composer/installers": "v1.0.25",
     "iamhexcoder/patterns": "0.2.0",
     "wpackagist-plugin/simple-page-ordering": "2.2.4",
