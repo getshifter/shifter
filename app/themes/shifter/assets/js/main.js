@@ -19,6 +19,7 @@ var Apollo = {
       // JavaScript to be fired on all pages
       commonScripts();
       accordionScripts();
+      pricingCalc();
     },
     finalize: function() {
       // JavaScript to be fired on all pages, after page specific JS is fired
@@ -30,12 +31,6 @@ var Apollo = {
       homeAnimation();
     },
     finalize: function() {
-
-    }
-  },
-  get_started: {
-    init: function() {
-      pricingCalc();
     }
   }
 };

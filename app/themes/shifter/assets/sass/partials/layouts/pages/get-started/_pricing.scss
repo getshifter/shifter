@@ -1,139 +1,6 @@
 // Get Started: Pricing
 // -----------------
 
-// // Pricing Signup
-//
-// .pricing {
-//   text-align: center;
-//
-//   @include media($medium) {
-//     @include center-column(8);
-//   }
-// }
-//
-// .plans {
-//
-//   @include media($medium) {
-//     @include fill-parent();
-//     border-collapse: separate;
-//     border-spacing: rem(2);
-//     display: table;
-//   }
-// }
-//
-// .pricing__lead {
-//   margin-bottom: $space-lg;
-// }
-//
-// .plans__signup {
-//   padding-top: $space-lg;
-//
-//   @include media($medium) {
-//     display: table-cell;
-//     padding: rem(50);
-//     position: relative;
-//     width: 40%;
-//   }
-// }
-//
-// .plans__price {
-//   font-weight: 400;
-//   margin-bottom: $space-md;
-//
-//   @include media($medium) {
-//     padding-top: 0;
-//   }
-//
-//   span {
-//     font-weight: 400;
-//   }
-// }
-//
-// .plans__details {
-//   padding: $space-lg;
-//
-//   @include media($medium) {
-//     display: table-cell;
-//   }
-// }
-//
-// .plans__includes {
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-// }
-//
-// .plans__includes-title {
-//   margin-bottom: $space-sm;
-//   margin-top: $space-sm;
-// }
-//
-// // Pricing Calc
-//
-// .pricing-calc {
-//   margin-top: $space-xl;
-//   text-align: center;
-//
-//   @include media($medium) {
-//     @include center-column(8);
-//   }
-// }
-//
-// .calc {
-//   margin-top: $space-md;
-//
-//   @include media($medium) {
-//     display: flex;
-//   }
-// }
-//
-// .calc__wrap {
-//   padding: $space-lg $space-lg $space-xl;
-// }
-//
-// .calc__price {
-//   align-self: center;
-//
-//   @include media($medium) {
-//     width: 40%;
-//   }
-// }
-//
-// .calc__vars {
-//
-//   @include media($medium) {
-//     width: 60%;
-//   }
-// }
-//
-// .calc__var {
-//   + .calc__var {
-//     margin-top: $space-lg;
-//   }
-// }
-//
-// .calc__label {
-//   display: block;
-//   margin-bottom: $space-md;
-// }
-//
-// .calc__range {
-//   width: 100%
-// }
-
-
-
-
-
-
-
-
-
-
-
-// Solutions: Pricing
-// -----------------
-
 .pricing__lead {
   margin-bottom: $space-xl;
   text-align: center;
@@ -144,21 +11,44 @@
 }
 
 .plans {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1200px;
+  @include span-columns(12);
   align-items: center;
   text-align: center;
+  display: flex;
+  flex-flow: column wrap;
 
-  @include media($medium) {
-    display: flex;
-    flex: 1;
+  @include media($small) {
+    flex-flow: row wrap;
+  }
+
+  &.year {
+
+    .year {
+      display: block;
+    }
+
+    .month {
+      display: none;
+    }
+  }
+
+  &.month {
+
+    .year {
+      display: none;
+    }
+
+    .month {
+      display: block;
+    }
   }
 }
 
 .plans__price {
   font-weight: 400;
-  margin-bottom: $space-sm;
+  margin-top: $space-sm;
+  margin-bottom: $space-md;
+  font-size: 35px;
 
   span {
     font-weight: 400;
@@ -174,24 +64,32 @@
 .plans__item {
   @include standard-trans();
   border: rem(1) solid $black-light;
-  padding-top: $space-lg;
-  padding-bottom: $space-lg;
+  padding: $space-lg $space-sm;
+  flex: 1;
+  width: 100%;
+
+  @include media($small) {
+    flex: 50%;
+  }
 
   @include media($medium) {
-    margin-bottom: 0;
-    flex: 2;
+    flex: 1;
+  }
+
+  &:not(:first-of-type) .plans__price:before {
+    font-size: 60%;
+    display: inline-block;
+    vertical-align: super;
+    width: 0;
+    right: 8px;
+    position: relative;
+    content: '\0024';
   }
 }
 
 .plans__item-featured {
   background-color: $white;
   opacity: 1;
-}
-
-._green {
-  .plans__item {
-    border-color: $magenta;
-  }
 }
 
 .plans__link {
@@ -223,12 +121,26 @@
 
 .toggle-button {
   @extend .btn-outline--white;
+  @include standard-trans();
   display: inline-block;
+
+  &:hover {
+    background-color: transparent;
+    color: $white;
+  }
 
   &.active {
     background-color: $white;
     border-color: $white;
     color: $magenta;
+  }
+
+  span {
+    display: none;
+
+    @include media($xsmall) {
+      display: inline-block;
+    }
   }
 }
 
