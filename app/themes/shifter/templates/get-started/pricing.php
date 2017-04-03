@@ -32,16 +32,16 @@
               <li>1</li>
             </ul>
             <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>1GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Data Transfer</li>
               <li>10GB/mo</li>
             </ul>
             <ul class="plans__features xs-sans">
-              <li class="plans__desc">Storage</li>
-              <li>10GB</li>
-            </ul>
-            <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
-              <li>Shifter</li>
+              <li>Shifter CDN</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
@@ -79,12 +79,12 @@
               <li>1</li>
             </ul>
             <ul class="plans__features xs-sans">
-              <li class="plans__desc">Data Transfer</li>
-              <li>1TB/mo</li>
-            </ul>
-            <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
               <li>10GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>1TB/mo</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
@@ -126,12 +126,12 @@
               <li>5</li>
             </ul>
             <ul class="plans__features xs-sans">
-              <li class="plans__desc">Data Transfer</li>
-              <li>5TB/mo</li>
-            </ul>
-            <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
               <li>500GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>5TB/mo</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
@@ -173,12 +173,12 @@
               <li>10</li>
             </ul>
             <ul class="plans__features xs-sans">
-              <li class="plans__desc">Data Transfer</li>
-              <li>10TB/mo</li>
-            </ul>
-            <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
               <li>1TB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>10TB/mo</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
