@@ -12,7 +12,7 @@
     <article class="pricing">
       <header class="white pricing__lead">
         <h1 class="lg-sans">Flexible pricing to fit your needs</h1>
-        <h3 class="xs-sans">With Shifter, you get all the features of WordPress with the reliability of static hosting.</h3>
+        <h3 class="xs-sans">With Shifter, you get the features of WordPress with the benefits of static hosting. All in one.</h3>
         <div class="pricing-toggle">
           <div data-plan="year" class="toggle-button annually left-toggle active">Annual <span>Pricing</span></div><!--
           --><div data-plan="month" class="button toggle-button monthly right-toggle">Monthly <span>Pricing</span></div>
