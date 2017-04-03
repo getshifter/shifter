@@ -14,23 +14,10 @@
       </figure>
 
       <nav class="global-footer__links primary">
-      <?php
-      $pages = array(
-        'include' => array(
-          21, 24, 26, 28
-        ),
-        'sort_column' => 'menu_order'
-      );
-
-      $pages = get_pages($pages);
-
-      foreach ($pages as $page) {
-        $id     = $page->ID;
-        $title  = $page->post_title;
-        $link   = get_permalink($id);
-        ?>
-        <a class="xs-sans sm-caps white" href="<?= $link ?>"><?= $title ?></a>
-      <?php } ?>
+        <a class="xs-sans sm-caps white" href="<?= get_permalink(21); ?>"><?= get_the_title(21); ?></a>
+        <a class="xs-sans sm-caps white" href="<?= get_permalink(382); ?>"><?= get_the_title('382') ?></a>
+        <a class="xs-sans sm-caps white" href="<?= get_permalink(26); ?>"><?= get_the_title(26); ?></a>
+        <a class="xs-sans sm-caps white" href="<?= get_permalink(28); ?>"><?= get_the_title(28); ?></a>
       </nav>
 
       <nav class="global-footer__links secondary">
@@ -70,7 +57,7 @@
   </section>
   <section class="bottom _black">
     <article class="container-flex">
-      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Shifter | A <span class="purple">DigitalCube</span> Company</h6>
+      <h6 class="global-footer__copyright xs-sans sm-caps">©2016 Shifter | A <span class="purple">DigitalCube</span> Product</h6>
       <section class="global-footer__social">
         <a href="https://github.com/getshifter" target="_blank">
           <img width="35" height="auto" src="<?= get_template_directory_uri();?>/dist/images/github-icon.svg" alt="">
