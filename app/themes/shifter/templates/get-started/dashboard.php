@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="dashboard__screenshot">
-        <img class="img-r" width="80" height="auto" src="<?= get_template_directory_uri();?>/dist/images/dashboard.png" alt="">
+        <img class="img-r" width="80" height="auto" src="<?= get_template_directory_uri();?>/dist/images/dashboard-v2.png" alt="">
       </div>
     </article>
   </div>
