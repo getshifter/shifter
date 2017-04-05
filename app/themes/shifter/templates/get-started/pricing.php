@@ -135,7 +135,7 @@
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
-              <li>Shifter CDN</li>
+              <li>Shifter or Netlify CDN</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
