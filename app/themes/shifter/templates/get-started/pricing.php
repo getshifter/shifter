@@ -2,60 +2,211 @@
 /**
  * Get Started: Pricing
  */
-?>
 
+ $signup_link = 'https://go.getshifter.io/#register';
+
+?>
 
 <section class="_gradient section-padding">
   <div class="container">
     <article class="pricing">
       <header class="white pricing__lead">
         <h1 class="lg-sans">Flexible pricing to fit your needs</h1>
-        <h3 class="xs-sans">With Shifter, you can power an unlimited number of sites starting at $30/month. Our monthly costs increase only when your site data and storage demands grow, so you’ll never pay more for what you need—and never be left unprepared for traffic spikes.</h3>
+        <h3 class="xs-sans">With Shifter, you get the features of WordPress with the benefits of static hosting. All in one.</h3>
+        <div class="pricing-toggle">
+          <div data-plan="year" class="toggle-button annually left-toggle active">Annual <span>Pricing</span></div><!--
+          --><div data-plan="month" class="button toggle-button monthly right-toggle">Monthly <span>Pricing</span></div>
+        </div>
       </header>
-      <div class="plans">
-        <div class="plans__signup black-light _white">
-          <h2 class="sm-sans">Start from</h2>
-          <div class="plans__price xl-sans black-light">
-            $30<span class="md-sans">/mo</span>
-          </div>
-          <a class="btn-outline--purple" href="https://go.getshifter.io/#register">Sign up</a>
-        </div>
-        <div class="plans__details _white">
-          <h3 class="sm-sans">Power unlimited sites<br>starting at $30/month.</h3>
-          <h4 class="xs-sans plans__includes-title">This includes:</h4>
-          <ul class="xs-sans plans__includes">
-            <li>10GB/mo storage</li>
-            <li>10GB/mo data transfer</li>
-            <li>Unlimited sites</li>
-          </ul>
-        </div>
-      </div>
-    </article>
-    <article class="pricing-calc">
-      <header class="white pricing__lead">
-        <h1 class="lg-sans">Need more storage or larger transfer capabilities?</h1>
-        <h3 class="xs-sans">See our pricing calculator for additional pay as you go pricing.</h3>
-      </header>
-      <div class="calc__wrap _white">
-        <div class="calc__title">
-          <h2 class="sm-sans black">Pricing Calculator</h2>
-        </div>
-        <div class="calc">
-          <div class="calc__price">
-            <div class="plans__price xl-sans black-light">
-              $<output id="pricing-result"></output><span class="md-sans">/mo</span>
+      <div class="row">
+
+        <div class="plans year">
+
+          <div class="plans__item _white black-light">
+            <h2 class="plans__name sm-caps xs-sans">Forever Trial</h2>
+            <div class="plans__price lg-sans black-light">
+              FREE
             </div>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">No. of Projects</li>
+              <li>1</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>1GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>10GB/mo</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Deploy Options</li>
+              <li>Shifter CDN</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Users</li>
+              <li>1</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Custom Domain</li>
+              <li>Disabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Export/Download Archives</li>
+              <li>Disabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Import/Upload Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Backup</li>
+              <li>3 Months</li>
+            </ul>
+            <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
           </div>
-          <div class="calc__vars">
-            <div class="calc__var">
-              <label class="calc__label" for="storageRange">Storage</label>
-              <input class="calc__range" id="dataRange" type="range" min="10" step="10" max="100" value="10">
+
+          <div class="plans__item plans__item-featured _white black-light">
+            <h2 class="plans__name sm-caps xs-sans">Personal</h2>
+            <div class="plans__price year lg-sans black-light">
+              15<span class="sm-sans">/mo</span>
             </div>
-            <div class="calc__var">
-              <label class="calc__label" for="dataRange">Data Transfer</label>
-              <input class="calc__range" id="dataRange" type="range" min="10" step="10" max="100" value="20">
+            <div class="plans__price month lg-sans black-light">
+              20<span class="sm-sans">/mo</span>
             </div>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">No. of Projects</li>
+              <li>1</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>10GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>1TB/mo</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Deploy Options</li>
+              <li>Shifter or Netlify CDN</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Users</li>
+              <li>1</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Custom Domain</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Export/Download Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Import/Upload Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Backup</li>
+              <li>3 Months</li>
+            </ul>
+            <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
           </div>
+
+          <div class="plans__item _white black-light">
+            <h2 class="plans__name sm-caps xs-sans">Business</h2>
+            <div class="plans__price year lg-sans black-light">
+              30<span class="sm-sans">/mo</span>
+            </div>
+            <div class="plans__price month lg-sans black-light">
+              40<span class="sm-sans">/mo</span>
+            </div>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">No. of Projects</li>
+              <li>5</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>500GB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>5TB/mo</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Deploy Options</li>
+              <li>Shifter CDN</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Users</li>
+              <li>Unlimited</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Custom Domain</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Export/Download Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Import/Upload Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Backup</li>
+              <li>1 year</li>
+            </ul>
+            <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
+          </div>
+
+          <div class="plans__item _white black-light">
+            <h2 class="plans__name sm-caps xs-sans">Agency</h2>
+            <div class="plans__price year lg-sans black-light">
+              60<span class="sm-sans">/mo</span>
+            </div>
+            <div class="plans__price month lg-sans black-light">
+              90<span class="sm-sans">/mo</span>
+            </div>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">No. of Projects</li>
+              <li>10</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>1TB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>10TB/mo</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Deploy Options</li>
+              <li>Shifter or Netlify CDN</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Users</li>
+              <li>Unlimited</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Custom Domain</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Export/Download Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Import/Upload Archives</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Backup</li>
+              <li>1 year</li>
+            </ul>
+            <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
+          </div>
+
         </div>
       </div>
     </article>
