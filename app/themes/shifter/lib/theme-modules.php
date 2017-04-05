@@ -44,7 +44,7 @@ function post_module() {
         <div class="entry-summary xs-sans">
           <?php the_excerpt(); ?>
         </div>
-        <a class="btn-link blog__link" href="<?= the_permalink() ?>">Read More</a>
+        <a class="btn-outline--purple-sm blog__link" href="<?= the_permalink() ?>">Read More</a>
       </div>
     </article>
   <?php

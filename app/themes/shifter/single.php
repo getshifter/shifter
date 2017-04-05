@@ -2,7 +2,6 @@
   <div class="_gradient section-padding">
     <div class="container">
       <article <?php post_class('single__article _white'); ?>>
-
         <div class="single__content">
           <div class="entry-content">
             <?php the_content(); ?>
@@ -22,7 +21,6 @@
             </a>
           </section>
         </div>
-
       </article>
     </div>
   </div>
