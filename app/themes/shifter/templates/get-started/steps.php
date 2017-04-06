@@ -35,7 +35,7 @@
           <div class="match-h step__icon">
             <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/create-icon.svg" alt="">
           </div>
-          <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create or import</h2>
+          <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create</h2>
           <div class="step__desc xs-sans">
             Migrate an existing site or start a fresh install with one click.
           </div>
