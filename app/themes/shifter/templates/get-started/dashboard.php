@@ -13,16 +13,16 @@
       </header>
       <div class="dashboard__features xs-sans">
         <div class="feature__item">
-          <h2 class="feature__title black xs-sans">Unlimited access</h2>
-          Host and manage an unlimited number of secure sites
+          <h2 class="feature__title black xs-sans">Everything in one place</h2>
+          View everything from data to storage, backups and more
         </div>
         <div class="feature__item">
-          <h2 class="feature__title black xs-sans">Everything in one place</h2>
-          Managing multiple sites has never been easier—get everything you need in one place
+          <h2 class="feature__title black xs-sans">A Place for Teams</h2>
+          Manage unlimited users with Business or Agency plans so you can collaberate and build together
         </div>
         <div class="feature__item">
           <h2 class="feature__title black xs-sans">Total control</h2>
-          Get the information you need and the tools you expect, so you can manage every aspect of your sites in real time.
+          Get the information you need and the tools you expect, so you can manage every aspect of your sites in real time
         </div>
       </div>
       <div class="dashboard__screenshot">

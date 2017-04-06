@@ -19,7 +19,7 @@
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">1.</span> Select your plan</h2>
           <div class="step__desc xs-sans">
-            Find the amount of storage you need and get ready to host an unlimited number of sites.
+            Choose your plan based on storage, bandwidth, number of users, or Perfered CDN.
           </div>
         </article>
         <article class="step__item">
@@ -28,16 +28,16 @@
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">2.</span> Log in</h2>
           <div class="step__desc xs-sans">
-            Access a personalized dashboard to monitor all of your sites in real time.
+            Access your Shifter dashboard to monitor everything in real time.
           </div>
         </article>
         <article class="step__item">
           <div class="match-h step__icon">
             <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/create-icon.svg" alt="">
           </div>
-          <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create/import</h2>
+          <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create or import</h2>
           <div class="step__desc xs-sans">
-            Migrate an existing site or start a fresh site with one click.
+            Migrate an existing site or start a fresh install with one click.
           </div>
         </article>
         <article class="step__item">
