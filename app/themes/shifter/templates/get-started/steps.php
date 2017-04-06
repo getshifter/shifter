@@ -15,7 +15,7 @@
       <section class="steps row">
         <article class="step__item">
           <div class="match-h step__icon">
-            <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/check-icon.svg" alt="">
+            <img width="55" height="auto" src="<?= get_template_directory_uri();?>/dist/images/check-icon.svg" alt="">
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">1.</span> Select your plan</h2>
           <div class="step__desc xs-sans">
@@ -24,7 +24,7 @@
         </article>
         <article class="step__item">
           <div class="match-h step__icon">
-            <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/login-icon.svg" alt="">
+            <img width="68" height="auto" src="<?= get_template_directory_uri();?>/dist/images/login-icon.svg" alt="">
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">2.</span> Log in</h2>
           <div class="step__desc xs-sans">
@@ -33,7 +33,7 @@
         </article>
         <article class="step__item">
           <div class="match-h step__icon">
-            <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/create-icon.svg" alt="">
+            <img width="45" height="auto" src="<?= get_template_directory_uri();?>/dist/images/create-icon.svg" alt="">
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">3.</span> Create</h2>
           <div class="step__desc xs-sans">
@@ -42,7 +42,7 @@
         </article>
         <article class="step__item">
           <div class="match-h step__icon">
-            <img width="50" height="auto" src="<?= get_template_directory_uri();?>/dist/images/power-icon.svg" alt="">
+            <img width="45" height="auto" src="<?= get_template_directory_uri();?>/dist/images/power-icon.svg" alt="">
           </div>
           <h2 class="step__title black sm-sans"><span class="purple">4.</span> Generate</h2>
           <div class="step__desc xs-sans">
