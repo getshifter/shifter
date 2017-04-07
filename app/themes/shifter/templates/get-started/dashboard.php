@@ -18,7 +18,7 @@
         </div>
         <div class="feature__item">
           <h2 class="feature__title black xs-sans">A Place for Teams</h2>
-          Manage unlimited users with Business or Agency plans so you can collaberate and build together
+          Manage unlimited users with Business or Agency plans so you can collaborate and build together
         </div>
         <div class="feature__item">
           <h2 class="feature__title black xs-sans">Total control</h2>

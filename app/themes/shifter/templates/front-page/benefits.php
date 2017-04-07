@@ -25,7 +25,7 @@
         </article>
         <article class="benefits__item _white match-h">
           <div class="benefits__icon">
-            <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/durability-icon.svg" alt="">
+            <img width="auto" height="62" src="<?= get_template_directory_uri();?>/dist/images/durability-icon.svg" alt="">
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Durability</h2>
@@ -37,7 +37,7 @@
         </article>
         <article class="benefits__item _white match-h">
           <div class="benefits__icon">
-            <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/safety-icon.svg" alt="">
+            <img width="auto" height="85" src="<?= get_template_directory_uri();?>/dist/images/safety-icon.svg" alt="">
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Safety + Security</h2>
@@ -49,7 +49,7 @@
         </article>
         <article class="benefits__item _white match-h">
           <div class="benefits__icon">
-            <img width="auto" height="80" src="<?= get_template_directory_uri();?>/dist/images/maintenance-icon.svg" alt="">
+            <img width="auto" height="70" src="<?= get_template_directory_uri();?>/dist/images/maintenance-icon.svg" alt="">
           </div>
           <div class="benefits__content xs-sans">
             <h2 class="sm-caps black benefits__title">Maintenance-free</h2>
