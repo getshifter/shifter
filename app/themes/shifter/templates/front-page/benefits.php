@@ -19,7 +19,7 @@
             <h2 class="sm-caps black benefits__title">Extreme Speed</h2>
             <h3 class="xs-sans benefits__subtitle"><i>HTTP/2</i></h3>
             <p>
-              Static HTML files make PHP and MySQL obsolete, so content can be delivered to your user’s screen at lightning speed no matter where they are in the world.
+              Generate WordPress to static HTML files with Shifter and deliver them at lightning speed without bottlenecks.
             </p>
           </div>
         </article>
@@ -31,7 +31,7 @@
             <h2 class="sm-caps black benefits__title">Durability</h2>
             <h3 class="xs-sans benefits__subtitle"><i>Global CDN</i></h3>
             <p>
-              Static files guarantee a high-performance website that won’t fail or slow down due to increased traffic.
+              Create sites that won’t fail or slow down from increased traffic anywhere are in the world.
             </p>
           </div>
         </article>
@@ -43,7 +43,7 @@
             <h2 class="sm-caps black benefits__title">Safety + Security</h2>
             <h3 class="xs-sans benefits__subtitle"><i>SSL Included</i></h3>
             <p>
-              The CDN only stores static files, so you don’t have to stress about weaknesses or security holes in your server, WordPress plugins, or PHP.
+              Publish in our secure on-demand environment without sweating the security holes or outdated versions of WordPress.
             </p>
           </div>
         </article>
@@ -55,7 +55,7 @@
             <h2 class="sm-caps black benefits__title">Maintenance-free</h2>
             <h3 class="xs-sans benefits__subtitle"><i>Serverless Architecture</i></h3>
             <p>
-              Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
+              End downtime with our unique approach to hosting and publish all your content at once or only when it’s ready.
             </p>
           </div>
         </article>
@@ -63,10 +63,10 @@
     </div>
     <section class="white md-sans quote">
       <p>
-        "Shifter is to WordPress hosting what the WordPress REST API is to app development - the future."
+        "As the first commercial product to provide serverless WordPress hosting, Shifter offers a unique way to tackle the security concerns that plague WordPress and its plugins and themes."
       </p>
       <aside class="">
-        <h3 class="quote__author xs-sans sm-caps">– Shaun Baer, 2016</h3>
+        <h3 class="quote__author xs-sans sm-caps">– Sarah Gooding, WP Tavern</h3>
       </aside>
     </section>
   </div>
