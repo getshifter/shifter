@@ -6,8 +6,8 @@
   padding: $space-lg;
 }
 
-.page {
-  .single__content .entry-content {
+.single__content {
+  .entry-content {
     @include span-columns(12);
   }
 }

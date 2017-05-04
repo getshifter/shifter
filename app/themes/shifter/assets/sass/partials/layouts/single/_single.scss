@@ -2,8 +2,13 @@
 // ---------------------
 
 .single__article {
-  @include center-column(10);
-  padding: $space-lg;
+  @include span-columns(12);
+  padding: $space-md;
+
+  @include media($small) {
+    padding: $space-lg;
+    @include center-column(10);
+  }
 
   h1,
   h2,
@@ -57,6 +62,16 @@
 
     a {
       word-break: break-all;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+
+    + p {
+      margin-top: 31px;
     }
   }
 
