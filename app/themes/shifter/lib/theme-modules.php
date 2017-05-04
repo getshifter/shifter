@@ -24,12 +24,13 @@ function post_module() {
   $img_w          = $img_obj[1];
   $img_h          = $img_obj[2];
   $img_url        = $img_obj[0];
+  $link           = get_the_permalink();
 
   ?>
 
     <?php if (has_post_thumbnail()): ?>
       <article <?php post_class('blog__post _white container-fluid has_thumbnail'); ?>>
-        <div style="background-image: url(<?= $img_url ?>)" class="bkg-cover blog__thumbnail"></div>
+        <a href="<?= $link ?>"><div style="background-image: url(<?= $img_url ?>)" class="bkg-cover blog__thumbnail"></div></a>
     <?php else: ?>
       <article <?php post_class('blog__post _white container-fluid'); ?>>
     <?php endif; ?>
@@ -44,7 +45,7 @@ function post_module() {
         <div class="entry-summary xs-sans">
           <?php the_excerpt(); ?>
         </div>
-        <a class="btn-outline--purple-sm blog__link" href="<?= the_permalink() ?>">Read More</a>
+        <a class="btn-outline--purple-sm blog__link" href="<?= $link ?>">Read More</a>
       </div>
     </article>
   <?php
