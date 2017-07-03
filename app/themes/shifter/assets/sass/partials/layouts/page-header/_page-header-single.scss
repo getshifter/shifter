@@ -14,17 +14,22 @@
 
 .page-header-single {
   text-align: center;
-  padding-top: $space-xl;
-  padding-bottom: $space-xl;
+  padding-top: $space-lg;
+  padding-bottom: $space-lg;
 
   @include media($small) {
-    padding-top: $space-xxl;
-    padding-bottom: $space-xxl;
+    padding-top: $space-xl;
+    padding-bottom: $space-xl;
   }
 }
 
 .page-header-single__title {
-  margin-bottom: $space-sm;
+  // margin-bottom: $space-sm;
+  font-size: 35px;
+
+  @include media($small) {
+    font-size: 50px;
+  }
 }
 
 .page-header-single__meta {
