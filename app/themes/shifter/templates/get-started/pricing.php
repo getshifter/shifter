@@ -43,10 +43,12 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN</li>
             </ul>
-            <ul class="plans__features xs-sans">
+            <!--
+            <ul class="plans__features xs-sans" style="display: none;">
               <li class="plans__desc">Users</li>
               <li>1</li>
             </ul>
+          -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Disabled</li>
@@ -90,10 +92,12 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter or Netlify CDN</li>
             </ul>
-            <ul class="plans__features xs-sans">
+            <!--
+            <ul class="plans__features xs-sans" style="display: none;">
               <li class="plans__desc">Users</li>
               <li>1</li>
             </ul>
+          -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
@@ -137,10 +141,12 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter or Netlify CDN</li>
             </ul>
-            <ul class="plans__features xs-sans">
+            <!--
+            <ul class="plans__features xs-sans" style="display: none;">
               <li class="plans__desc">Users</li>
               <li>Unlimited</li>
             </ul>
+          -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
@@ -184,10 +190,12 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter or Netlify CDN</li>
             </ul>
-            <ul class="plans__features xs-sans">
+            <!--
+            <ul class="plans__features xs-sans" style="display: none;">
               <li class="plans__desc">Users</li>
               <li>Unlimited</li>
             </ul>
+          -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
