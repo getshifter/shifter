@@ -39,18 +39,6 @@
     {
       "type": "package",
       "package": {
-        "name": "iamhexcoder/patterns",
-        "version": "0.2.0",
-        "type": "wordpress-muplugin",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/iamhexcoder/patterns/archive/master.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
         "version": "5.3.7",
         "type": "wordpress-muplugin",
@@ -63,14 +51,12 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.7.*",
+    "johnpbloch/wordpress": "4.8.*",
     "composer/installers": "v1.0.25",
-    "iamhexcoder/patterns": "0.2.0",
-    "wpackagist-plugin/simple-page-ordering": "2.2.4",
+    "wpackagist-plugin/simple-page-ordering": "2.2.*",
     "advanced-custom-fields/advanced-custom-fields-pro": "5.3.7",
     "wpackagist-plugin/c3-cloudfront-clear-cache": "4.*",
-    "wpackagist-plugin/nginx-champuru": "3.*",
-    "wpackagist-plugin/contact-form-7": "4.*"
+    "wpackagist-plugin/nginx-champuru": "3.*"
   },
   "extra": {
     "installer-paths": {
