@@ -20,3 +20,4 @@ composer.lock
 
 # Apollo Config
 wp-config.php
+salts.php
