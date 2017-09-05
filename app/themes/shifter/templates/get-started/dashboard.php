@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="dashboard__screenshot">
-        <img class="img-r" width="80" height="auto" src="<?= get_template_directory_uri();?>/dist/images/dashboard-v2.png" alt="">
+        <img class="img-r" width="80" height="auto" src="<?= get_template_directory_uri();?>/dist/images/shifter-screenshot.png" alt="Shifter Dashboard Screenshot for Serverless Static WordPress SaaS">
       </div>
     </article>
   </div>
