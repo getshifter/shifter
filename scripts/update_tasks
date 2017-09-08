@@ -1,4 +1,8 @@
 #!/bin/bash
+## Debug
+env > /tmp/env
+
+echo "start deploy"
 cd /var/www/vhosts/getshifter.io
 if [ -e /var/www/vhosts/getshifter.io/composer.lock ]; then
   /usr/local/bin/composer update -n > /tmp/composer.log
@@ -7,7 +11,9 @@ else
 fi
 /usr/local/bin/composer install -n > /tmp/composer.log
 cd app/themes/shifter
+echo "npm install"
 /usr/local/bin/npm install > /tmp/npm.log
+echo "npm rebuild"
 /usr/local/bin/npm rebuild > /tmp/npm_rebuild.log
 /usr/bin/gulp --production > /tmp/gulp.log
 chown -R nginx:nginx /var/www/vhosts/getshifter.io
