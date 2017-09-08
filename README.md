@@ -1,4 +1,4 @@
-# getshifter.io
+# getshifter.io theme
 
 #### Serverless hosting for WordPress
 
