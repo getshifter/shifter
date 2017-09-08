@@ -1,6 +1,10 @@
 #!/bin/bash
 ## Debug
 env > /tmp/env
+node -v > /tmp/node.0
+/usr/local/bin/node -v > /tmp/node.1
+/usr/bin/n 6.9.1
+/usr/local/bin/node -v > /tmp/node.2
 
 echo "start deploy"
 cd /var/www/vhosts/getshifter.io
