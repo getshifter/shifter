@@ -1,6 +1,10 @@
 #!/bin/bash
 ## Debug
 env > /tmp/env
+## UPDATE ENV
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/aws/bin:/root/bin
+
+## Try update node
 node -v > /tmp/node.0
 /usr/local/bin/node -v > /tmp/node.1
 /usr/bin/n 6.9.1
