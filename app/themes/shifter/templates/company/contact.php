@@ -4,17 +4,13 @@
  */
 ?>
 
-<section class="section-padding _gradient">
-  <article class="container">
-    <header class="section-lead white">
-      <h1 class="lg-sans">Contact us for advice, support,<br />or additional information.</h1>
-    </header>
-    <section class="contact">
-
-      <div class="contact__form">
-        <?php echo do_shortcode( '[contact-form-7 id="106" title="Support Form"]' ); ?>
-      </div>
-
-    </section>
-  </article>
+<section class="_gradient section-padding">
+  <div class="container">
+    <article class="global-signup">
+      <header class="section-lead white">
+        <h1 class="lg-sans">Contact us for advice, support,<br />or additional information.</h1>
+      </header>
+      <a href="https://support.getshifter.io" target="_blank" class="btn-outline--white">Support</a>
+    </article>
+  </div>
 </section>
