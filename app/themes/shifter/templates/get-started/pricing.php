@@ -53,14 +53,16 @@
               <li class="plans__desc">Custom Domain</li>
               <li>Disabled</li>
             </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Export/Download Archives</li>
-              <li>Disabled</li>
-            </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Import/Upload Archives</li>
-              <li>Enabled</li>
-            </ul>
+            <!--
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Export/Download Archives</li>
+                <li>Disabled</li>
+              </ul>
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Import/Upload Archives</li>
+                <li>Enabled</li>
+              </ul>
+            -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
               <li>3 Months</li>
@@ -90,7 +92,7 @@
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
-              <li>Shifter or Netlify CDN</li>
+              <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
             <!--
             <ul class="plans__features xs-sans" style="display: none;">
@@ -102,14 +104,16 @@
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
             </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Export/Download Archives</li>
-              <li>Enabled</li>
-            </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Import/Upload Archives</li>
-              <li>Enabled</li>
-            </ul>
+            <!--
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Export/Download Archives</li>
+                <li>Enabled</li>
+              </ul>
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Import/Upload Archives</li>
+                <li>Enabled</li>
+              </ul>
+            -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
               <li>3 Months</li>
@@ -139,7 +143,7 @@
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
-              <li>Shifter or Netlify CDN</li>
+              <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
             <!--
             <ul class="plans__features xs-sans" style="display: none;">
@@ -151,14 +155,16 @@
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
             </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Export/Download Archives</li>
-              <li>Enabled</li>
-            </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Import/Upload Archives</li>
-              <li>Enabled</li>
-            </ul>
+            <!--
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Export/Download Archives</li>
+                <li>Enabled</li>
+              </ul>
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Import/Upload Archives</li>
+                <li>Enabled</li>
+              </ul>
+            -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
               <li>1 year</li>
@@ -188,7 +194,7 @@
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Deploy Options</li>
-              <li>Shifter or Netlify CDN</li>
+              <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
             <!--
             <ul class="plans__features xs-sans" style="display: none;">
@@ -200,14 +206,16 @@
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
             </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Export/Download Archives</li>
-              <li>Enabled</li>
-            </ul>
-            <ul class="plans__features xs-sans">
-              <li class="plans__desc">Import/Upload Archives</li>
-              <li>Enabled</li>
-            </ul>
+            <!--
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Export/Download Archives</li>
+                <li>Enabled</li>
+              </ul>
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Import/Upload Archives</li>
+                <li>Enabled</li>
+              </ul>
+            -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
               <li>1 year</li>
