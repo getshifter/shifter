@@ -9,20 +9,20 @@
     <article class="dashboard">
       <header class="dashboard__lead section-lead">
         <h1 class="lg-sans purple">Your Shifter Dashboard</h1>
-        <h3 class="xs-sans">Manage all of your sites in one place, with real time updates and all the tools you expect.</h3>
+        <h3 class="xs-sans">Create secure, static versions your WordPress sites right from the Shifter Dashboard.</h3>
       </header>
       <div class="dashboard__features xs-sans">
         <div class="feature__item">
-          <h2 class="feature__title black xs-sans">Everything in one place</h2>
-          View everything from data to storage, backups and more
+          <h2 class="feature__title black xs-sans">1-Click Start</h2>
+          Launch WordPress with 1-Click to get stated, no config required
         </div>
         <div class="feature__item">
-          <h2 class="feature__title black xs-sans">A Place for Teams</h2>
-          Manage unlimited users with Business or Agency plans so you can collaborate and build together
+          <h2 class="feature__title black xs-sans">Build Static Versions</h2>
+          Create and store static Versions of your site and deploy them when you want
         </div>
         <div class="feature__item">
-          <h2 class="feature__title black xs-sans">Total control</h2>
-          Get the information you need and the tools you expect, so you can manage every aspect of your sites in real time
+          <h2 class="feature__title black xs-sans">Two Secure Hosting Environments</h2>
+          WordPress runs in a secure container only you can access and deployed static sites don't run WordPress to hack
         </div>
       </div>
       <div class="dashboard__screenshot">
