@@ -50,6 +50,10 @@
             </ul>
           -->
             <ul class="plans__features xs-sans">
+              <li class="plans__desc">SSL</li>
+              <li>Disabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Disabled</li>
             </ul>
@@ -65,7 +69,7 @@
             -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
-              <li>3 Months</li>
+              <li>Disabled</li>
             </ul>
             <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
           </div>
@@ -101,6 +105,10 @@
             </ul>
           -->
             <ul class="plans__features xs-sans">
+              <li class="plans__desc">SSL</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
             </ul>
@@ -116,7 +124,7 @@
             -->
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Backup</li>
-              <li>3 Months</li>
+              <li>1 Year</li>
             </ul>
             <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
           </div>
@@ -151,6 +159,10 @@
               <li>Unlimited</li>
             </ul>
           -->
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">SSL</li>
+              <li>Enabled</li>
+            </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
@@ -202,6 +214,10 @@
               <li>Unlimited</li>
             </ul>
           -->
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">SSL</li>
+              <li>Enabled</li>
+            </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Custom Domain</li>
               <li>Enabled</li>
