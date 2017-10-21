@@ -49,7 +49,7 @@
               <li>1</li>
             </ul>
           -->
-            <ul class="plans__features xs-sans">
+            <ul class="plans__features xs-sans" style="display:block!important">
               <li class="plans__desc">SSL</li>
               <li>Disabled</li>
             </ul>
@@ -104,7 +104,7 @@
               <li>1</li>
             </ul>
           -->
-            <ul class="plans__features xs-sans">
+            <ul class="plans__features xs-sans" style="display:block!important">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
@@ -159,7 +159,7 @@
               <li>Unlimited</li>
             </ul>
           -->
-            <ul class="plans__features xs-sans">
+            <ul class="plans__features xs-sans" style="display:block!important">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
@@ -214,7 +214,7 @@
               <li>Unlimited</li>
             </ul>
           -->
-            <ul class="plans__features xs-sans">
+            <ul class="plans__features xs-sans" style="display:block!important">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
