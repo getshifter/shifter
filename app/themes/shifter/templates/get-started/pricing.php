@@ -84,7 +84,7 @@
             </div>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">No. of Projects</li>
-              <li>1</li>
+              <li>3</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
@@ -139,7 +139,7 @@
             </div>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">No. of Projects</li>
-              <li>5</li>
+              <li>10</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
@@ -194,7 +194,7 @@
             </div>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">No. of Projects</li>
-              <li>10</li>
+              <li>30</li>
             </ul>
             <ul class="plans__features xs-sans">
               <li class="plans__desc">Storage</li>
@@ -239,6 +239,60 @@
             <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
           </div>
 
+          <div class="plans__item _white black-light">
+            <h2 class="plans__name sm-caps xs-sans">Agency Plus</h2>
+            <div class="plans__price year lg-sans black-light">
+              140<span class="sm-sans">/mo</span>
+            </div>
+            <div class="plans__price month lg-sans black-light">
+              210<span class="sm-sans">/mo</span>
+            </div>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">No. of Projects</li>
+              <li>50</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Storage</li>
+              <li>1TB</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Data Transfer</li>
+              <li>10TB/mo</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Deploy Options</li>
+              <li>Shifter CDN<!-- or Netlify --></li>
+            </ul>
+            <!--
+            <ul class="plans__features xs-sans" style="display: none;">
+              <li class="plans__desc">Users</li>
+              <li>Unlimited</li>
+            </ul>
+          -->
+            <ul class="plans__features xs-sans" style="display:block!important">
+              <li class="plans__desc">SSL</li>
+              <li>Enabled</li>
+            </ul>
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Custom Domain</li>
+              <li>Enabled</li>
+            </ul>
+            <!--
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Export/Download Archives</li>
+                <li>Enabled</li>
+              </ul>
+              <ul class="plans__features xs-sans">
+                <li class="plans__desc">Import/Upload Archives</li>
+                <li>Enabled</li>
+              </ul>
+            -->
+            <ul class="plans__features xs-sans">
+              <li class="plans__desc">Backup</li>
+              <li>1 year</li>
+            </ul>
+            <a class="plans__link btn-link--black-light" href="<?= $signup_link ?>">Sign up</a>
+          </div>
         </div>
       </div>
     </article>
