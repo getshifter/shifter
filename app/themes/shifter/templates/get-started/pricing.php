@@ -43,13 +43,11 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN</li>
             </ul>
-            <!--
-            <ul class="plans__features xs-sans" style="display: none;">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
               <li>1</li>
             </ul>
-          -->
-            <ul class="plans__features xs-sans" style="display:block!important">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">SSL</li>
               <li>Disabled</li>
             </ul>
@@ -98,13 +96,11 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
-            <!--
-            <ul class="plans__features xs-sans" style="display: none;">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
               <li>1</li>
             </ul>
-          -->
-            <ul class="plans__features xs-sans" style="display:block!important">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
@@ -153,13 +149,11 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
-            <!--
-            <ul class="plans__features xs-sans" style="display: none;">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
               <li>Unlimited</li>
             </ul>
-          -->
-            <ul class="plans__features xs-sans" style="display:block!important">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
@@ -208,13 +202,11 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
-            <!--
-            <ul class="plans__features xs-sans" style="display: none;">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
               <li>Unlimited</li>
             </ul>
-          -->
-            <ul class="plans__features xs-sans" style="display:block!important">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
@@ -263,13 +255,11 @@
               <li class="plans__desc">Deploy Options</li>
               <li>Shifter CDN<!-- or Netlify --></li>
             </ul>
-            <!--
-            <ul class="plans__features xs-sans" style="display: none;">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">Users</li>
               <li>Unlimited</li>
             </ul>
-          -->
-            <ul class="plans__features xs-sans" style="display:block!important">
+            <ul class="plans__features xs-sans">
               <li class="plans__desc">SSL</li>
               <li>Enabled</li>
             </ul>
