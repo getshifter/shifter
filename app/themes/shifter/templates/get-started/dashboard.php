@@ -14,7 +14,7 @@
       <div class="dashboard__features xs-sans">
         <div class="feature__item">
           <h2 class="feature__title black xs-sans">1-Click Start</h2>
-          Launch WordPress with 1-Click to get stated, no config required
+          Launch WordPress with 1-Click to get started, no config required
         </div>
         <div class="feature__item">
           <h2 class="feature__title black xs-sans">Build Static Versions</h2>
