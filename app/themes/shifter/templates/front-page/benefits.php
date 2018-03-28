@@ -31,7 +31,7 @@
             <h2 class="sm-caps black benefits__title">Durability</h2>
             <h3 class="xs-sans benefits__subtitle"><i>Global CDN</i></h3>
             <p>
-              Create sites that won’t fail or slow down from increased traffic anywhere are in the world.
+              Create sites that won’t fail or slow down from increased traffic anywhere in the world.
             </p>
           </div>
         </article>

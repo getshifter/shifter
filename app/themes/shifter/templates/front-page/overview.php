@@ -17,7 +17,7 @@
         <div class="overview__content">
           <h2 class="md-sans overview__title">Serverless Architecture</h2>
           <p>
-            Static web pages are nearly maintenance-free and load at lightening speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
+            Static web pages are nearly maintenance-free and load at lightning speed. But they require outside development resources and don’t offer the functionality of a dynamic web page.
           </p>
           <div class="overview__highlights">
             <h3 class="xs-sans sm-caps purple">Highlights</h3>
